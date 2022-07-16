@@ -1,0 +1,58 @@
+.Navbar-header {
+  height: 100px;
+  position: relative;
+  background-color: #377C51;
+}
+.Navbar-header .Navbar-logo img {
+  margin-top: 5px;
+  margin-left: 75px;
+  position: absolute;
+  top: 2rem;
+}
+
+.Navbar-header .Navbar-logo img {
+    border-radius: 100px 100px;
+    height: 85px;
+    width: 85px;
+  }
+
+  .Navbar-header .Navbar-logo .Navbar-title {
+    color: white;
+    position: absolute;
+    width: auto;
+    left: 11rem;
+    top: 3rem;
+  }                                                                                                                                                                                                                                                                                                                                                                                                  
+
+  .Navbar-menu {
+    position: relative;
+    font-size: 20px;
+    font-weight: light;
+  }
+  
+  .Navbar-menu ul li {
+    display: inline;
+    position: relative;
+    margin-left: 3rem;
+    list-style: none;
+    float: right;
+    right: 15rem;
+    margin-top: 3.7rem;
+    }
+
+    .Navbar-menu ul li a {
+      text-decoration: none;
+      color: white;     
+    }
+
+    .Navbar-menu a:hover {
+      background-color: darkorange;
+      color: black;
+      transition: all 0.5s ease-in;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+    }
+
+    
+
+    
