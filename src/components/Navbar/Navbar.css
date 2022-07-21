@@ -1,13 +1,15 @@
 .Navbar-header {
   height: 100px;
   position: relative;
-  background-color: #377C51;
+  background-color: #106536;;
 }
+
 .Navbar-header .Navbar-logo img {
   margin-top: 5px;
   margin-left: 75px;
   position: absolute;
-  top: 2rem;
+  top: 1.25rem;
+  cursor: pointer;
 }
 
 .Navbar-header .Navbar-logo img {
@@ -22,6 +24,7 @@
     width: auto;
     left: 11rem;
     top: 3rem;
+    cursor: pointer;
   }                                                                                                                                                                                                                                                                                                                                                                                                  
 
   .Navbar-menu {
@@ -47,8 +50,8 @@
 
     .Navbar-menu a:hover {
       background-color: darkorange;
-      color: black;
-      transition: all 0.5s ease-in;
+      color: white;
+      transition: all 0.2s ease-in;
       border-top-left-radius: 3px;
       border-top-right-radius: 3px;
     }

@@ -1,0 +1,6 @@
+.main-body {
+    height: 80vh;
+    width: auto;
+    display: grid;
+    justify-content: center;
+}

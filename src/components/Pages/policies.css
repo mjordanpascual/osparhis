@@ -1,0 +1,77 @@
+.main-body {
+    height: 80vh;
+    width: auto;
+    font-size: 10px;
+    display: grid;
+    justify-content: center;
+    background-color: rgba(234, 233, 233, 0.889);
+}
+
+.main-body h1 {
+    display: grid;
+    height: 45px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.main-body .policy-div {
+    font-size: 20px;
+    background-color: yellow;
+    display: grid;
+    justify-content: center;
+}
+
+.main-body .policy-div ul li{
+    display: grid;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+
+.pol {
+    height: 65px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.pol1 {
+    display: grid;
+    justify-content: center;    
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+.pol1 ul li {
+    display: grid;
+    margin-bottom: 5px;
+}
+
+.pol1 ul li a:hover {
+    font-size: 10.5px;
+    transition: all 0.3s ease-in-out;
+    color: rgb(29, 130, 71);
+}
+
+.pol1 ul li {
+    display: grid;
+    justify-content: center;
+    list-style: none;
+    width: 25rem;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.pol1 ul li a {
+    font-size: 10px;
+    color: black;
+    padding: 10px;
+    list-style: none;
+}

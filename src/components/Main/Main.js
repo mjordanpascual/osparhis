@@ -4,9 +4,10 @@ import './Main.css'
 const Main = () => {
   return (
     <div className='main-body'>
-        <div>
-            <h3></h3>
-        </div>
+      <h3>MAIN</h3>
+      <div>
+        <h3>Main Body</h3>
+      </div>
     </div>
   )
 }
