@@ -1,5 +1,5 @@
 .main-body {
-    height: 80vh;
+    height: 10vh;
     width: auto;
     font-size: 10px;
     display: grid;
@@ -40,6 +40,17 @@
     display: grid;
     align-items: center;
     justify-content: center;
+}
+
+
+.pol1 ul li {
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 1px solid #fff
+}
+
+.pol1 h1 {
+    text-decoration: underline;
 }
 
 .pol1 {

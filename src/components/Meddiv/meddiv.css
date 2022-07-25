@@ -1,0 +1,32 @@
+.main-meddiv {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    font-size: 12.5px;
+}
+
+.main-meddiv ul li {;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(5, 154, 5, 0.74);
+    border: 1px solid #212121;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    
+}
+
+.main-meddiv ul li h2:hover {
+    font-weight: bolder;
+    color: rgb(242, 239, 239);
+    transition: all 0.5s ease-in-out;
+}
+
+.main-meddiv ul li a h2 {
+    text-decoration: underline;
+    color: black;
+}
+
