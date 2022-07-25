@@ -14,7 +14,7 @@ const Addiv = () => {
       <div className='main-meddiv'>
         <ul>
           <li>
-            <Link to="/sao" element={<Sao />}target="_self"><h1>Arnaldo S. Cortez, RN</h1></Link>
+            <Link to="/sao" element={<Sao />}target="_self"><h1>Arnaldo S. Cortez</h1></Link>
             <h3>Supervising Administrative Office</h3>
           </li>
           <li>
