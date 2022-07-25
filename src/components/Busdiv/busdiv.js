@@ -10,13 +10,13 @@ const Busdiv = () => {
         <h1>Business Division Policies</h1>
       </div>
       <div className='main-meddiv'>
-        <ul>
+        <ul className='divisionPolicies'>
           <li>
             <a href="/">
              <h2>Rizalina S. Lavarias, CPA</h2>
             </a>
             <h3>Division Head</h3>
-            <h4>Accounting</h4>
+            <h3>Accounting</h3>
           </li>
           <li>
             <a href="/">

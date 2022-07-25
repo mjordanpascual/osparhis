@@ -10,7 +10,7 @@ const Meddiv = () => {
         <h1>Medical Division Policies</h1>
       </div>
       <div className='main-meddiv'>
-        <ul>
+        <ul className='divisionPolicies'>
           <li>
             <a href="/">
              <h2>Dr. Lemuel Lee</h2>

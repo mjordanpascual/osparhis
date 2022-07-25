@@ -10,7 +10,7 @@ const Nurdiv = () => {
         <h1>Nursing Division Policies</h1>
       </div>
       <div className='main-meddiv'>
-        <ul>
+        <ul className='divisionPolicies'>
           <li>
             <a href="/">
              <h2>Meda M. Calderon, RN, MAN</h2>
