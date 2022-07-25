@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
+// import { Routes, Route, Link } from 'react-router-dom'
 import './policies.css'
 import Navbar from '../Navbar/Navbar';
 
