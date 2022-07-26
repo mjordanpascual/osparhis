@@ -10,6 +10,10 @@ import Nurdiv from './components/Nurdiv/nurdiv';
 import Busdiv from './components/Busdiv/busdiv';
 import Addiv from './components/Addiv/addiv';
 import Sao from './components/Addiv/sao';
+import Coc from './components/Meddiv/Coc/coc';
+import Dietary from './components/Meddiv/Dietary/dietary';
+import LabEcg from './components/Meddiv/LabEcg/labecg';
+import MeddivTable from './components/Meddiv/meddivTable';
 
 function App() {
   return (
@@ -25,6 +29,10 @@ function App() {
         <Route path="/busdiv" element={ <Busdiv/> } />
         <Route path="/addiv" element={ <Addiv/> } />
         <Route path="/sao" element={ <Sao/> } />
+        <Route path="/coc" element={ <Coc/> } />
+        <Route path="/dietary" element={ <Dietary/> } />
+        <Route path="/labecg" element={ <LabEcg/> } />
+        <Route path="/meddivTable" element={ <MeddivTable/> } />
       </Routes>  
     </div>
   );

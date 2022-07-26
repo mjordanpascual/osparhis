@@ -1,0 +1,32 @@
+.table-coc {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    height: auto;
+}
+
+.table-coc tr th {
+  font-size: 58px;
+  letter-spacing: 2.5px;
+}
+
+.table-coc tr th {
+    font-size: 19px;
+    letter-spacing: 1.5px;
+}
+
+.table-coc td, th {
+    font-size: 20px;
+    border: 1.5px solid #2121;
+    text-align: center;
+    padding: 15px;
+}
+
+.policy-heads h2 {
+    font-size: 25px;
+    display: grid;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 2px;
+}
