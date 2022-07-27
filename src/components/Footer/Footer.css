@@ -1,8 +1,10 @@
-.footer {
-    height: 67px;
-    width: auto;
+footer {
+    height: 59px;
+    display: grid;
+    align-items: center;
     text-align: center;
+    justify-content: center;
     background-color: #106536;
-    color: #fff;
-    margin-top: 0.8rem;
+    color: #fff;    
+    margin-top: auto;
 }

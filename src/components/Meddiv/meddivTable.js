@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
+import { props } from 'react'
 import './meddivTable.css'
 import Moa  from '../pdffiles/Admin/MOA.pdf'
 
-const MeddivTable = () => {
+const MeddivTable = (props) => {
     return (
         <>
             <div className='policy-heads'>

@@ -6,7 +6,10 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className='main-body'>
+      {/* <div className='main-body'>
+        <h1>HOME</h1>
+      </div> */}
+      <div className='pol'>
         <h1>HOME</h1>
       </div>
     </> 

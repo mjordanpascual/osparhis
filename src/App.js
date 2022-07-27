@@ -17,10 +17,11 @@ import MeddivTable from './components/Meddiv/meddivTable';
 
 function App() {
   return (
+    <>
     <div className="App">
       <Routes>
-        <Route path="/" exact element={ <Navbar/> } />
-        <Route path="/home" element={ <Home/> } />
+        <Route path="/" exact element={ <Home/> } />
+        <Route path="/home" element={ <Navbar/> } />
         <Route path="/about" element={ <About/> } />
         <Route path="/policies" element={ <Policies/> } />
         <Route path="/Footer" element={ <Footer/> } />
@@ -33,8 +34,10 @@ function App() {
         <Route path="/dietary" element={ <Dietary/> } />
         <Route path="/labecg" element={ <LabEcg/> } />
         <Route path="/meddivTable" element={ <MeddivTable/> } />
-      </Routes>  
+      </Routes>
     </div>
+    {/* <Footer /> */}
+    </>
   );
 }
 

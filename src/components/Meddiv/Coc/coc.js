@@ -3,7 +3,6 @@ import Navbar from '../../Navbar/Navbar'
 import './coc.css'
 // import Moa  from '../../pdffiles/Admin/MOA.pdf'
 import MeddivTable from '../meddivTable'
-import Policies from '../../Pages/policies'
 
 const Coc = () => {
   return (
