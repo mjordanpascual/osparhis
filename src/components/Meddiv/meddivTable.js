@@ -1,14 +1,13 @@
 import React from 'react'
-import { props } from 'react'
 import './meddivTable.css'
 import Moa  from '../pdffiles/Admin/MOA.pdf'
 
-const MeddivTable = (props) => {
+const MeddivTable = () => {
     return (
         <>
             <div className='policy-heads'>
                 <h2>Hospital Policies</h2>
-                <table className='table-coc'>
+                <table className='table-meddiv'>
                     <tr>
                         <th>Department</th>
                         <th>Date</th>

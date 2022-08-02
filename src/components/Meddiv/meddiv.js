@@ -31,31 +31,31 @@ const Meddiv = () => {
             <h3>Laboratory / ECG</h3>
           </li>
           <li>
-            <a href="/coc" target="_self">
+            <a href="/mss" target="_self">
              <h2>Crisolim C. Villasin, RSW</h2>
             </a>
             <h3>Medical Social Services / Malasakit</h3>
           </li>
           <li>
-            <a href="/coc" target="_self">
+            <a href="/pharma" target="_self">
              <h2>Geraldine L. Ang , Rph</h2>
             </a>
             <h3>Pharmacy</h3>
           </li>
           <li>
-            <a href="/coc" target="_self">
+            <a href="/radio" target="_self">
              <h2>Rosinante C. Garcia, RRT</h2>
             </a>
             <h3>X-Ray / Ultrasound</h3>
           </li>
           <li>
-            <a href="/coc" target="_self">
+            <a href="/pt" target="_self">
              <h2>Nico Ryan C. Garcia, RRT</h2>
             </a>
             <h3>Physical Therapy</h3>
           </li>
           <li>
-            <a href="/coc" target="_self">
+            <a href="/rt" target="_self">
              <h2>Jemma Mae A. Aguilar, RTRP, RN</h2>
             </a>
             <h3>Respiratory Therapy</h3>

@@ -12,20 +12,20 @@ const Busdiv = () => {
       <div className='main-meddiv'>
         <ul className='divisionPolicies'>
           <li>
-            <a href="/">
+            <a href="/accounting">
              <h2>Rizalina S. Lavarias, CPA</h2>
             </a>
             <h3>Division Head</h3>
             <h3>Accounting</h3>
           </li>
           <li>
-            <a href="/">
+            <a href="/billing">
              <h2>Gichelle Anne A. Dell Valle  - OIC</h2>
             </a>
             <h3>Billing Claims & Philhealth</h3>
           </li>
           <li>
-            <a href="/">
+            <a href="/cashier">
              <h2>Martha J. Jose - OIC</h2>
             </a>
             <h3>Cashier</h3>
