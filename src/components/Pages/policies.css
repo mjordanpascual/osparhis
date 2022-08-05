@@ -94,11 +94,25 @@
     font-size: 23px;
 }
 
-.Heads {
+.policy-heads .Heads {
     height: 200px;
     width: 200px;
     margin: 5px;
     padding: 0 3px;
     border-radius: 100px;
     border: 0.5px solid black;
+}
+
+@media (max-width: 480px) {
+    .pol {
+        font-size: 12px;
+        letter-spacing: 5px;
+        border-bottom: 2px dashed black;
+        margin-bottom: 2px;
+        height: 50px;
+        width: auto;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
 }

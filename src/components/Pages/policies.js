@@ -22,7 +22,7 @@ const Policies = () => {
             <a href="/meddiv" target="_self">
               <h1>Medical Division</h1>
                <img src={Lee} alt="Dr. Lemuel Lee" className="Heads" />
-              <h2><u>Dr. Lemuel Lee, MD</u></h2>
+              <h1><u>Dr. Lemuel Lee, MD</u></h1>
             </a>
               <h3>Division Head</h3>
               <h4><i>Chief of Clinics</i></h4>
@@ -30,7 +30,7 @@ const Policies = () => {
           <li>
             <a href="/nurdiv" target="_self"><h1>Nursing Division</h1>
               <img src={Meda} alt="Dr. Lemuel Lee" className="Heads" />
-              <h2><u>Meda M. Calderon, RN</u></h2>
+              <h1><u>Meda M. Calderon, RN</u></h1>
             </a>
               <h3>Division Head</h3>
               <h4><i>Chief Nurse</i></h4>
@@ -38,7 +38,7 @@ const Policies = () => {
           <li>
             <a href="/busdiv" target="_self"><h1>Business Division</h1>
               <img src={Lavarias} alt="Dr. Lemuel Lee" className="Heads" />
-              <h2><u>Rizalina S. Lavarias, CPA</u></h2>
+              <h1><u>Rizalina S. Lavarias, CPA</u></h1>
             </a>
               <h3>Division Head</h3>
               <h4><i>Chief of Clinics</i></h4>
@@ -46,7 +46,7 @@ const Policies = () => {
           <li>
             <a href="/addiv" target="_self"><h1>Administrative Division</h1>
               <img src={Cortez} alt="Dr. Lemuel Lee" className="Heads" />
-              <h2><u>Arnaldo S. Cortez, RN</u></h2>
+              <h1><u>Arnaldo S. Cortez, RN</u></h1>
             </a>
               <h3>Division Head</h3>
               <h4><i>Supervising Administrative Office</i></h4>

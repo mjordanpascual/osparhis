@@ -2,11 +2,10 @@ import React from 'react'
 import Navbar from '../../Navbar/Navbar'
 import './coc.css'
 import Moa  from '../../pdffiles/Admin/MOA.pdf'
-// import MeddivTable from '../meddivTable'
 
 const Coc = () => {
   return (
-    <>
+    <>   
         <Navbar />
         <div className='pol'>
             <h1>Chief of Clinics</h1>

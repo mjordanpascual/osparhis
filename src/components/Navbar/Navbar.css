@@ -1,7 +1,7 @@
 .Navbar-header {
   height: 100px;
   position: relative;
-  background-color: #106536;;
+  background-color: #106536;
 }
 
 .Navbar-header .Navbar-logo img {
@@ -33,8 +33,14 @@
     font-weight: light;
   }
   
+  .Navbar-menu ul {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 1.5rem;
+  }
+
   .Navbar-menu ul li {
-    display: inline;
+    /* display: inline; */
     position: relative;
     margin-left: 3rem;
     list-style: none;
@@ -51,4 +57,25 @@
     .Navbar-menu a:hover {
       border-bottom: 2px solid #106536; 
       transition: all 0.5s ease-in;
+    }
+
+    @media (max-width: 480px){
+      .Navbar-header {
+        display: block;
+      }
+      .Navbar-logo img {
+        display: flex;
+        font-size: 0.1px;
+        justify-content: flex-start;
+      }
+      .Navbar-menu {
+        display: flex;
+        justify-content: center;
+      }
+      .Navbar-menu ul {
+        display: block;
+        margin-top: 2rem;
+        justify-content: flex-end;
+      }
+
     }
