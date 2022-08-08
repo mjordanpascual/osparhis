@@ -1,10 +1,10 @@
-footer {
-    height: 59px;
+.footers {
     display: grid;
     align-items: center;
     text-align: center;
     justify-content: center;
     background-color: #106536;
-    color: #fff;    
+    color: #fff;
+    height: min-content;    
     margin-top: auto;
 }

@@ -6,12 +6,15 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <>
-      <div className='Navbar-header'>
-            <div className='Navbar-logo'>
-                <img src={logo} alt="Ospar 1 Logo" />
-            </div>
-            <div>
-                <h1 className='Navbar-title'>Ospital ng Parañaque-District 1</h1>
+      <div className='Navbar-container'>
+         <nav className='Navbar'>
+            <div className='Navbrand-logo'>
+                <div>
+                  <img src={ logo } alt="Ospar Logo" />
+                </div>
+                <div>
+                  <h2>Ospital ng Parañaque</h2>
+                </div>
             </div>
             <div className='Navbar-menu'>
               <ul>
@@ -20,6 +23,7 @@ const Navbar = () => {
                 <li><Link to="/policies">Policies</Link></li>
               </ul>
             </div>
+         </nav>
       </div>  
     </>
   )

@@ -18,69 +18,69 @@ const Addiv = () => {
             <h3>Supervising Administrative Office</h3>
           </li>
           <li>
-            <a href="/hr">
+            <Link to="/hr">
              <h2>Kerry Anne M. Requiero, RPm - OIC</h2>
-            </a>
+            </Link>
             <h3>Human Resource</h3>
           </li>
           <li>
-            <a href="/admitting">
+            <Link to="/admitting">
              <h2>Dianne B. Bernas - OIC</h2>
-            </a>
+            </Link>
             <h3>Admitting</h3>
           </li>
           <li>
-            <a href="/cwu">
+            <Link to="/cwu">
              <h2>Joel R. Lombos - OIC</h2>
-            </a>
+            </Link>
             <h3>Civilian Security Unit</h3>
           </li>
           <li>
-            <a href="/linen">
+            <Link to="/linen">
              <h2>Imelda H. Velasquez - OIC</h2>
-            </a>
+            </Link>
             <h3>Linen / Laundry</h3>
           </li>
           <li>
-            <a href="/mrd">
+            <Link to="/mrd">
              <h2>Frederick C. Dacanay - OIC</h2>
-            </a>
+            </Link>
             <h3>Medical Records</h3>
           </li>
           <li>
-            <a href="/it">
+            <Link to="/it">
              <h2>Michael John S. Vallido - OIC</h2>
-            </a>
+            </Link>
             <h3>Information Technology</h3>
           </li>
           <li>
-            <a href="/property">
+            <Link to="/property">
              <h2>Lindsay T. San Miguel - OIC</h2>
-            </a>
+            </Link>
             <h3>Property</h3>
           </li>
           <li>
-            <a href="/to">
+            <Link to="/to">
              <h2>Carmi S. Torio - OIC</h2>
-            </a>
+            </Link>
             <h3>Telephone Operator - OIC</h3>
           </li>
           <li>
-            <a href="/maintenance">
+            <Link to="/maintenance">
              <h2>Quintin A. Opaco - OIC</h2>
-            </a>
+            </Link>
             <h3>Maintenance</h3>
           </li>
           <li>
-            <a href="/transpo">
+            <Link to="/transpo">
              <h2>Marlorey D. Villamaria - OIC</h2>
-            </a>
+            </Link>
             <h3>Transportation</h3>
           </li>
           <li>
-            <a href="/wmo">
+            <Link to="/wmo">
              <h2>Engr. Mark Louie A. Ona - OIC</h2>
-            </a>
+            </Link>
             <h3>WMO / Housekeeping / DRRMO - OIC</h3>
           </li>
         </ul>

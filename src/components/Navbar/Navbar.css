@@ -1,32 +1,42 @@
-.Navbar-header {
+.Navbar-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   text-align: center;
   height: 75px;
-  width: 100vw;
-  background-color: #106536;
-  border-bottom: 3px solid rgb(170, 226, 222);
-  font-weight: 300;
+  background-color: green;
+  border-bottom: 3.5px solid rgba(30, 151, 139, 0.845);
 }
 
-.Navbar-header .Navbar-logo img {
+.Navbar {
   display: flex;
-  height: 85px;
-  width: 85px;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.Navbar-header .Navbar-title {
+.Navbrand-logo {
   display: flex;
-  justify-content: end;
-  text-align: end;
-  align-items: end;
-  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24rem;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
+
+
+.Navbrand-logo img {
+  height: 80px;
+  width: 80px;
+  margin-top: 8.5px;
+  margin-right: 15px;
+}
+
 
 .Navbar-menu ul {
   display: flex;
-  margin-right: 100px;
+  /* margin-right: 100px; */
 
 }
 

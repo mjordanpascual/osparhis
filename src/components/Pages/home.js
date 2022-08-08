@@ -49,6 +49,7 @@ const Home = () => {
           </p>
         </div>
       </div>
+      {/* <Footer /> */}
     </> 
   )
 }
