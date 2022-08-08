@@ -92,7 +92,6 @@ function App() {
         <Route path="/maintenance" element={ <Maintenance/> } />
         <Route path="/transpo" element={ <Transpo/> } />
         <Route path="/wmo" element={ <Wmo/> } />
-
       </Routes>
     </div>
     {/* <Footer /> */}

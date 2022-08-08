@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Routes, Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './policies.css'
 import Navbar from '../Navbar/Navbar';
 import Lee from '../Heads/Lee.jpg'
@@ -19,35 +19,35 @@ const Policies = () => {
       <div className='policy-heads'>
         <ul>
           <li>
-            <a href="/meddiv" target="_self">
+            <Link to="/meddiv" target="_self">
               <h1>Medical Division</h1>
                <img src={Lee} alt="Dr. Lemuel Lee" className="Heads" />
               <h1><u>Dr. Lemuel Lee, MD</u></h1>
-            </a>
+            </Link>
               <h3>Division Head</h3>
               <h4><i>Chief of Clinics</i></h4>
           </li>
           <li>
-            <a href="/nurdiv" target="_self"><h1>Nursing Division</h1>
+            <Link to="/nurdiv" target="_self"><h1>Nursing Division</h1>
               <img src={Meda} alt="Dr. Lemuel Lee" className="Heads" />
               <h1><u>Meda M. Calderon, RN</u></h1>
-            </a>
+            </Link>
               <h3>Division Head</h3>
               <h4><i>Chief Nurse</i></h4>
           </li>
           <li>
-            <a href="/busdiv" target="_self"><h1>Business Division</h1>
+            <Link to="/busdiv" target="_self"><h1>Business Division</h1>
               <img src={Lavarias} alt="Dr. Lemuel Lee" className="Heads" />
               <h1><u>Rizalina S. Lavarias, CPA</u></h1>
-            </a>
+            </Link>
               <h3>Division Head</h3>
               <h4><i>Chief of Clinics</i></h4>
           </li>
           <li>
-            <a href="/addiv" target="_self"><h1>Administrative Division</h1>
+            <Link to="/addiv" target="_self"><h1>Administrative Division</h1>
               <img src={Cortez} alt="Dr. Lemuel Lee" className="Heads" />
               <h1><u>Arnaldo S. Cortez, RN</u></h1>
-            </a>
+            </Link>
               <h3>Division Head</h3>
               <h4><i>Supervising Administrative Office</i></h4>
           </li>

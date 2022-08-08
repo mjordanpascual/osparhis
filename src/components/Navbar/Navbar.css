@@ -1,81 +1,47 @@
 .Navbar-header {
-  height: 100px;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 75px;
+  width: 100vw;
   background-color: #106536;
+  border-bottom: 3px solid rgb(170, 226, 222);
+  font-weight: 300;
 }
 
 .Navbar-header .Navbar-logo img {
-  margin-top: 5px;
-  margin-left: 75px;
-  position: absolute;
-  top: 1.25rem;
-  cursor: pointer;
+  display: flex;
+  height: 85px;
+  width: 85px;
 }
 
-.Navbar-header .Navbar-logo img {
-    border-radius: 100px 100px;
-    height: 85px;
-    width: 85px;
-  }
+.Navbar-header .Navbar-title {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+  align-items: end;
+  color: white;
+}
 
-  .Navbar-header .Navbar-logo .Navbar-title {
-    color: white;
-    position: absolute;
-    width: auto;
-    left: 11rem;
-    top: 3rem;
-    cursor: pointer;
-  }
-  
-  .Navbar-menu {
-    position: relative;
-    font-size: 20px;
-    font-weight: light;
-  }
-  
-  .Navbar-menu ul {
-    display: flex;
-    justify-content: flex-end; 
-    gap: 1.5rem;
-  }
+.Navbar-menu ul {
+  display: flex;
+  margin-right: 100px;
 
-  .Navbar-menu ul li {
-    /* display: inline; */
-    position: relative;
-    margin-left: 3rem;
-    list-style: none;
-    float: right;
-    right: 15rem;
-    margin-top: 3.7rem;
-    }
+}
 
-    .Navbar-menu ul li a {
-      text-decoration: none;
-      color: white;     
-    }
+.Navbar-menu ul li {
+  list-style: none;
+  margin: 0 22px;
+}
 
-    .Navbar-menu a:hover {
-      border-bottom: 2px solid #106536; 
-      transition: all 0.5s ease-in;
-    }
+.Navbar-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
 
-    @media (max-width: 480px){
-      .Navbar-header {
-        display: block;
-      }
-      .Navbar-logo img {
-        display: flex;
-        font-size: 0.1px;
-        justify-content: flex-start;
-      }
-      .Navbar-menu {
-        display: flex;
-        justify-content: center;
-      }
-      .Navbar-menu ul {
-        display: block;
-        margin-top: 2rem;
-        justify-content: flex-end;
-      }
-
-    }
+.Navbar-menu a:hover {
+  border-bottom: 2px solid #106536; 
+  transition: all 0.5s ease-in;
+}

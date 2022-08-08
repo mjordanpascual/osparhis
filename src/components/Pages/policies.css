@@ -1,3 +1,10 @@
+.main-body {
+    height: 80vh;
+    width: auto;
+    display: grid;
+    justify-content: center;
+}
+
 .pol {
     letter-spacing: 5px;
     border-bottom: 2px dashed black;
@@ -15,6 +22,7 @@
     font-size: 10px;
     background-color: rgba(234, 233, 233, 0.889);
 }
+
 
 .main-body h1 {
     display: grid;
@@ -65,6 +73,9 @@
 .policy-heads {
     display: grid;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 .policy-heads ul li{
@@ -78,6 +89,7 @@
     box-shadow: 1.5px 5.5px;
     padding: 15px 3px;
     border-radius: 25px;
+
 }  
 
 .policy-heads ul li a {
@@ -103,6 +115,7 @@
     border: 0.5px solid black;
 }
 
+/* 
 @media (max-width: 480px) {
     .pol {
         font-size: 12px;
@@ -115,4 +128,4 @@
         align-items: center;
         justify-content: center;
     }
-}
+} */

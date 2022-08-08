@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar';
 import './nurdiv.css'
 
@@ -12,63 +13,63 @@ const Nurdiv = () => {
       <div className='main-meddiv'>
         <ul className='divisionPolicies'>
           <li>
-            <a href="/chiefnurse">
+            <Link to="/chiefnurse">
              <h2>Meda M. Calderon, RN, MAN</h2>
-            </a>
+            </Link>
             <h3>Division Head</h3>
             <h4>Chief Nurse</h4>
           </li>
           <li>
-            <a href="/asstchiefnurse">
+            <Link to="/asstchiefnurse">
              <h2>Angeline L. Brillantes RN</h2>
-            </a>
+            </Link>
             <h3>Assistant Chief Nurse</h3>
           </li>
           <li>
-            <a href="/infeccont">
+            <Link to="/infeccont">
              <h2>Georgina L. Rodriguez, RN</h2>
-            </a>
+            </Link>
             <h3>Infection Control</h3>
           </li>
           <li>
-            <a href="/superv">
+            <Link to="/superv">
              <h2>Supervisors</h2>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/headnurse">
+            <Link to="/headnurse">
              <h2>Head Nurses</h2>
-            </a>
+            </Link>
           </li>
           <li>  
-            <a href="/asstheadnurse">
+            <Link to="/asstheadnurse">
              <h2>Assistant Head Nurses</h2>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/chargenurse">
+            <Link to="/chargenurse">
              <h2>Charge Nurses</h2>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/staffnurse">
+            <Link to="/staffnurse">
              <h2>Staff Nurses</h2>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/midwives">
+            <Link to="/midwives">
              <h2>Midwives</h2>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/naclerks">
+            <Link to="/naclerks">
              <h2>Nursing Attendant / Clerks</h2>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/csr">
+            <Link to="/csr">
              <h2>CSR</h2>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

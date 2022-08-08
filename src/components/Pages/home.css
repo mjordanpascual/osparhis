@@ -1,6 +1,33 @@
-.main-body {
-    height: 80vh;
-    width: auto;
+.onp-mvission {
     display: grid;
-    justify-content: center;
+    text-align: center;
+    margin: 5px 25%;
+    padding: 5  10%;
+    text-transform: uppercase;
+    user-select: none;
+    border-radius: 45px;
+}
+
+.onp-mvission .onp-vision {
+    line-height: 22px;
+}
+
+.onp-vision h2 {
+    color: #106536;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 11px;
+}
+
+.onp-vision p {
+    font-size: 16px;
+}
+
+.onp-vision {
+    margin: 6px;
+    padding: 12px;
+}
+
+.onp-vision ul li {
+    list-style: none;
 }
