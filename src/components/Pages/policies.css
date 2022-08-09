@@ -89,7 +89,6 @@
     box-shadow: 1.5px 5.5px;
     padding: 15px 3px;
     border-radius: 25px;
-
 }  
 
 .policy-heads ul li a {
@@ -119,7 +118,7 @@
 @media (max-width: 480px) {
     .pol {
         font-size: 12px;
-        letter-spacing: 5px;
+        letter-spacing: 5px; 
         border-bottom: 2px dashed black;
         margin-bottom: 2px;
         height: 50px;
@@ -129,3 +128,16 @@
         justify-content: center;
     }
 } */
+
+@media (max-width: 1028px) {
+    .policy-heads {
+        display: flex;
+        grid-template-columns: auto;
+
+    }
+    .policy-heads ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+}

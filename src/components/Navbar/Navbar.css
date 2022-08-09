@@ -4,6 +4,7 @@
   align-items: flex-start;
   text-align: center;
   height: 75px;
+  width: 100%;
   background-color: green;
   border-bottom: 3.5px solid rgba(30, 151, 139, 0.845);
 }
@@ -36,8 +37,6 @@
 
 .Navbar-menu ul {
   display: flex;
-  /* margin-right: 100px; */
-
 }
 
 .Navbar-menu ul li {
@@ -54,4 +53,33 @@
 .Navbar-menu a:hover {
   border-bottom: 2px solid #106536; 
   transition: all 0.5s ease-in;
+}
+
+@media (max-width: 1028px){
+  .Navbar-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    flex-wrap: nowrap;
+    height: 75px;
+    width: 100%;
+  }
+  .Navbar {
+    display: flex;
+  }
+  .Navbrand-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 16rem;
+    font-size: 12px;
+
+  }
+  .Navbar-menu {
+    display: grid;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: -12rem;
+    margin-right: 18rem;
+    
+  }
+  
 }
