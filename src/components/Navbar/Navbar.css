@@ -1,8 +1,8 @@
 .Navbar-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  text-align: center;
+  align-items: center;
+  text-align: flex-end;
   height: 75px;
   width: 100%;
   background-color: green;
@@ -20,11 +20,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 24rem;
+  margin-right: auto;
   color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+
+/* .Navbrand-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24rem;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+} */
 
 
 .Navbrand-logo img {
@@ -59,7 +69,7 @@
   .Navbar-container {
     display: grid;
     grid-template-rows: 1fr;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;  
     height: 75px;
     width: 100%;
   }

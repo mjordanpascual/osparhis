@@ -15,3 +15,12 @@
 .main-meddiv .adminDivision li a {
     text-decoration: none;
 } */
+.main-meddiv {
+    display: flex;
+}
+
+@media (max-width: 480px){
+    
+    
+}
+

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar';
 import './addiv.css'
-import Sao  from './Sao/sao';
+// import Sao  from './Sao/sao';
 
 const Addiv = () => {
   return (
@@ -14,7 +14,7 @@ const Addiv = () => {
       <div className='main-meddiv'>
         <ul className='divisionPolicies'>
           <li>
-            <Link to="/sao" element={<Sao />}target="_self"><h2>Arnaldo S. Cortez</h2></Link>
+            <Link to="/sao" target="_self"><h2>Arnaldo S. Cortez</h2></Link>
             <h3>Supervising Administrative Office</h3>
           </li>
           <li>
