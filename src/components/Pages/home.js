@@ -13,7 +13,7 @@ const Home = () => {
       {/* <div className='pol'>
         <h1>HOME</h1>
       </div> */}
-      <div className='onp-mvission'>
+      {/* <div className='onp-mvission'>
         <div className='onp-vision'>
             <h2>
               Vision
@@ -49,7 +49,7 @@ const Home = () => {
             </ul>
           </p>
         </div>
-      </div>
+      </div> */}
       {/* <Footer /> */}
     </> 
   )

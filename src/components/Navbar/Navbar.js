@@ -7,24 +7,21 @@ const Navbar = () => {
   return (
     <>
       <div className='Navbar-container'>
-         <nav className='Navbar'>
-            <div className='Navbrand-logo'>
-                <div>
-                  <img src={ logo } alt="Ospar Logo" />
-                </div>
-                <div>
-                  <h2>Ospital ng Parañaque</h2>
-                </div>
-            </div>
-            <div className='Navbar-menu'>
-              <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/policies">Policies</Link></li>
-              </ul>
-            </div>
-         </nav>
-      </div>  
+        <div className='Navbar-logo'>
+          <img src={ logo } alt="Ospar Logo" />
+        </div>
+        <div id="iconTrigger" class="icon-container hide-desktop">
+          <i id="icon" class="fa fa-bars"></i>
+        </div>
+        <div className='Navbar-title'>
+          <h2>Ospital ng Parañaque</h2>
+        </div>
+        <ul className='Navbar-menu'>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/policies">Policies</Link></li>
+        </ul>
+      </div>
     </>
   )
 }
