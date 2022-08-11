@@ -129,15 +129,19 @@
     }
 } */
 
-@media (max-width: 1028px) {
-    .policy-heads {
-        display: flex;
-        grid-template-columns: auto;
+@media (max-width: 1284px) and (min-width: 767px){
+ .policy-heads {
+    background-color: red;
+    display: grid;
+    grid-auto-flow: rows;
+    grid-template-rows: auto auto auto auto;
+ }   
+}
 
-    }
-    .policy-heads ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+@media (max-width: 768px) and (min-width: 567px){
+  
+}
 
-    }
+@media (max-width: 568px) {
+  
 }

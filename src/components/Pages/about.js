@@ -6,9 +6,6 @@ const About = () => {
   return (
     <>
       <Navbar />
-      {/* <div className='main-body'>
-        <h1>ABOUT</h1>
-      </div> */}
       <div className='pol'>
         <h1>ABOUT</h1>
       </div>

@@ -1,3 +1,12 @@
+.onp-home{
+    background: url(../../osparfront.jpg) 50% 0 repeat-y;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .onp-mvission {
     display: grid;
     text-align: center;
@@ -20,6 +29,8 @@
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 11px;
+    background-color:rgb(255, 255, 255);
+    padding: 5px;
 }
 
 .onp-vision p {
@@ -29,8 +40,27 @@
 .onp-vision {
     margin: 6px;
     padding: 12px;
+    background-color: rgba(1, 81, 17, 0.47);
+    border-radius: 10px 35px;
 }
 
 .onp-vision ul li {
     list-style: none;
 }
+  
+@media (max-width: 1284px) and (min-width: 767px){
+     
+   }
+   
+   @media (max-width: 768px) and (min-width: 567px){
+     
+   }
+   
+   @media (max-width: 568px) {
+    .onp-home {
+        
+    }  
+    .onp-mvission .onp-vision p {
+        line-height: 16px;
+    }
+   }

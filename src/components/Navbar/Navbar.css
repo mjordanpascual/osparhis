@@ -1,5 +1,5 @@
 .Navbar-container {
-  position: fixed;
+  position: grid;
   background-color: rgb(1, 81, 17);
   height: 70px;
   width: 100vw;
@@ -28,6 +28,7 @@
   width: 85px;
   margin-top: 8px;
 }
+
 
 .Navbar-container .Navbar-title {
   grid-column: 3/4;
@@ -138,10 +139,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: unset;
   }
   .Navbar-container .Navbar-logo img {
     transform: scale(0.60); 
     margin-top: unset;
+    margin-right: 1px;
   }
   .Navbar-container .Navbar-title h2 {
     font-size: 13px;

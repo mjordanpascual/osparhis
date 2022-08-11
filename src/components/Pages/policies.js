@@ -10,20 +10,18 @@ import Meda from '../Heads/Meda.jpg'
 const Policies = () => {
   return (
     <>
-
-      <Navbar />
+    <Navbar />
       <div className='pol'>
         <h1>POLICIES</h1>
       </div>
-
       <div className='policy-heads'>
         <ul>
           <li>
-            <Link to="/meddiv" target="_self">
-              <h1>Medical Division</h1>
-               <img src={Lee} alt="Dr. Lemuel Lee" className="Heads" />
-              <h1><u>Dr. Lemuel Lee, MD</u></h1>
-            </Link>
+              <Link to="/meddiv" target="_self">
+                <h1>Medical Division</h1>
+                <img src={Lee} alt="Dr. Lemuel Lee" className="Heads" />
+                <h1><u>Dr. Lemuel Lee, MD</u></h1>
+              </Link>
               <h3>Division Head</h3>
               <h4><i>Chief of Clinics</i></h4>
           </li>
@@ -53,7 +51,6 @@ const Policies = () => {
           </li>
         </ul>  
       </div>
-
     </> 
   )
 }
