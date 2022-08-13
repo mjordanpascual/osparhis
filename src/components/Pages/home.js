@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Link } from 'react-router-dom'
 import './home.css'
 import Navbar from '../Navbar/Navbar';
 import '../../osparfront.jpg';
@@ -9,10 +10,12 @@ const Home = () => {
       <div>
         <Navbar />
       </div>
-      <div className='pol'>
-        <h1>HOME</h1>
-      </div>
-      <div className='onp-home'>
+      {/* <div className='pol'>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/policies">Policies</Link></li>
+      </div> */}
+        <div className='onp-home'></div>
         <div className='onp-mvission'>
           <div className='onp-vision'>
               <h2>
@@ -50,8 +53,6 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </div>
-       {/* <Footer /> */}
     </> 
   )
 }

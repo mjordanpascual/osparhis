@@ -1,10 +1,12 @@
 .onp-home{
-    background: url(../../osparfront.jpg) 50% 0 repeat-y;
+    background: url(../../osparfront.jpg) 70% 70% repeat-y;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    z-index: -1;
 }
 
 .onp-mvission {
@@ -19,18 +21,16 @@
 
 .onp-mvission .onp-vision {
     line-height: 22px;
-    margin: 0 auto;
+    margin: 10px;
     font-weight: 600;
     line-height: 26px;
-}
+    }
 
 .onp-vision h2 {
     color: #106536;
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 11px;
-    background-color:rgb(255, 255, 255);
-    padding: 5px;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .onp-vision p {
@@ -38,29 +38,48 @@
 }
 
 .onp-vision {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 6px;
     padding: 12px;
-    background-color: rgba(1, 81, 17, 0.47);
-    border-radius: 10px 35px;
 }
 
 .onp-vision ul li {
     list-style: none;
-}
-  
+} 
+
 @media (max-width: 1284px) and (min-width: 767px){
-     
+    .onp-mvission .onp-vision {
+        margin: 20px 15%;
+        
+    }
+    .onp-mvission {
+        margin: unset;
+        
+    }  
    }
    
    @media (max-width: 768px) and (min-width: 567px){
-     
+    .onp-mvission .onp-vision {
+        margin: 20px auto;
+        
+    }
+    .onp-mvission {
+        margin: unset;
+        
+    }   
    }
    
    @media (max-width: 568px) {
-    .onp-home {
-        
-    }  
-    .onp-mvission .onp-vision p {
-        line-height: 16px;
+    .onp-mvission .onp-vision {
+        margin: unset;
+    }
+    .onp-mvission {
+        margin: unset;
+    }   
+    .onp-vision h2, p {
+
+    }    
+    .onp-mvission .onp-vision .mobile-view li {
+        background-color: yellow;
     }
    }

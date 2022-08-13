@@ -2,12 +2,13 @@
   position: grid;
   background-color: rgb(1, 81, 17);
   height: 70px;
-  width: 100vw;
+  width: 100%;
 
   /* Layout */
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: 50px auto 1fr auto 50px;
+  border-bottom: 3.5px solid rgb(164, 146, 8);
 }
 
 .hide-desktop {
@@ -79,9 +80,6 @@
 }
 
 @media (max-width: 992px) and (min-width: 767px){
-  .Navbar-container {
-
-  }
   .Navbar-container .Navbar-logo img {
     transition: all .5s ease-out; 
     transform: scale(0.95); 
@@ -95,10 +93,9 @@
   }
 }
 
+
 @media (max-width: 768px) and (min-width: 567px){
-  .Navbar-container {
-    
-  }
+  
   .hide-desktop {
     display: block;
     grid-column: 4/5 ;
@@ -153,5 +150,18 @@
   .Navbar-container .Navbar-menu li {
     display: none;
     color: green;
+  }
+  .Navbar-container .Navbar-menu {
+    display: block;
+    
+  }
+  .Navbar-container .Navbar-menu li {
+    background-color: red;
+    grid-auto-flow: row;
+    grid-template-rows: auto auto auto;
+    grid-column: 1/2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }

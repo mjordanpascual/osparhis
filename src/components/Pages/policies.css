@@ -17,12 +17,10 @@
 }
 
 .main-body {
-    height: 10vh;
-    width: auto;
+    height: 10%;
     font-size: 10px;
     background-color: rgba(234, 233, 233, 0.889);
-}
-
+} 
 
 .main-body h1 {
     display: grid;
@@ -114,34 +112,22 @@
     border: 0.5px solid black;
 }
 
-/* 
-@media (max-width: 480px) {
-    .pol {
-        font-size: 12px;
-        letter-spacing: 5px; 
-        border-bottom: 2px dashed black;
-        margin-bottom: 2px;
-        height: 50px;
-        width: auto;
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
-} */
-
 @media (max-width: 1284px) and (min-width: 767px){
  .policy-heads {
-    background-color: red;
     display: grid;
-    grid-auto-flow: rows;
-    grid-template-rows: auto auto auto auto;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto auto auto;
  }   
 }
 
 @media (max-width: 768px) and (min-width: 567px){
-  
+    .pol {
+        font-size: 32px;  
+    }
 }
 
 @media (max-width: 568px) {
-  
+ .pol {
+    font-size: 22px;
+ }
 }
