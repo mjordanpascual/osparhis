@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './policies.css'
 import Navbar from '../Navbar/Navbar';
-import Lee from '../Heads/Lee.jpg'
+// import Lee from '../Heads/Lee.jpg'
 import Cortez from '../Heads/Cortez.jpg'
 import Lavarias from '../Heads/Lavarias.jpg'
 import Meda from '../Heads/Meda.jpg'
@@ -19,7 +19,7 @@ const Policies = () => {
           <li>
               <Link to="/meddiv" target="_self">
                 <h1>Medical Division</h1>
-                <img src={Lee} alt="Dr. Lemuel Lee" className="Heads" />
+                <img src={Meda} alt="Dr. Lemuel Lee" className="Heads" />
                 <h1><u>Dr. Lemuel Lee, MD</u></h1>
               </Link>
               <h3>Division Head</h3>
