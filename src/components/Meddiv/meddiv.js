@@ -6,8 +6,8 @@ import './meddiv.css';
 const Meddiv = () => {
   return (
     <>
-      <Navbar /> 
-      <div className='main-body'>
+      <Navbar />
+      <div className='pol'>
         <h1>Medical Division Policies</h1>
       </div>
       <div className='main-meddiv'>
@@ -15,7 +15,7 @@ const Meddiv = () => {
           <li>
             <Link to="/coc" target="_self">
              <h2>Dr. Lemuel Lee</h2>
-            </Link>
+            </Link>   
             <h3>Division Head</h3>
             <h4>Chief of Clinics</h4>
           </li>

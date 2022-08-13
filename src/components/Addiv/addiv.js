@@ -8,7 +8,8 @@ const Addiv = () => {
   return (
     <>
       <Navbar />
-      <div className='main-body'>
+
+      <div className='pol'>
         <h1>Administrative Division Policies</h1>
       </div>
       <div className='main-meddiv'>

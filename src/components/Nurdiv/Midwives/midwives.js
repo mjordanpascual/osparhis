@@ -7,7 +7,7 @@ const Midwives = () => {
     <>
         <Navbar />
         <div className='pol'>
-            <h1>Midwife's</h1>
+            <h1>Midwive's</h1>
         </div>
 
         <div className='policy-heads'>

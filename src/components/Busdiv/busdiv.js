@@ -7,7 +7,7 @@ const Busdiv = () => {
   return (
     <>
       <Navbar />
-      <div className='main-body'>
+      <div className='pol'>
         <h1>Business Division Policies</h1>
       </div>
       <div className='main-meddiv'>

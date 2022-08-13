@@ -1,6 +1,6 @@
 .onp-home{
     background: url(../../osparfront.jpg) 70% 70% repeat-y;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     opacity: 0.4;
     position: absolute;
@@ -9,38 +9,45 @@
     z-index: -1;
 }
 
+.onp-mvission .onp-vision {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 6px;
+    padding: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: rgba(255, 255, 255, 0.491);
+    border-radius: 5%;
+}
+
 .onp-mvission {
     display: grid;
     text-align: center;
     margin: 1rem 25%;
-    padding: 5  10%;
     text-transform: uppercase;
     user-select: none;
-    border-radius: 45px;
 }
 
-.onp-mvission .onp-vision {
-    line-height: 22px;
-    margin: 10px;
-    font-weight: 600;
-    line-height: 26px;
-    }
+.onp-mvission p {
+    margin: 0;
+    padding: 5px 20px;
+    color: black;
+}
 
-.onp-vision h2 {
-    color: #106536;
-    font-size: 32px;
-    font-weight: 900;
-    margin-bottom: 10px;
+.onp-mvission h2 {
+    background-color: rgb(33, 177, 0);
+    color: rgba(245, 245, 245, 0.877);
+}
+
+.onp-vision h2, p {
+    margin-bottom: 5px;
+    letter-spacing: 2.5px;
+    padding: 6px 0;
+    border: 1px solid rgb(9, 9, 9);
+    box-shadow: 1px 2px 10px;   
 }
 
 .onp-vision p {
-    font-size: 16px;
-}
-
-.onp-vision {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 6px;
-    padding: 12px;
+    font-size: 14px
 }
 
 .onp-vision ul li {
@@ -53,19 +60,13 @@
         
     }
     .onp-mvission {
-        margin: unset;
-        
+        margin: unset; 
     }  
    }
    
    @media (max-width: 768px) and (min-width: 567px){
-    .onp-mvission .onp-vision {
-        margin: 20px auto;
-        
-    }
     .onp-mvission {
-        margin: unset;
-        
+        margin: unset;  
     }   
    }
    
@@ -75,11 +76,18 @@
     }
     .onp-mvission {
         margin: unset;
-    }   
-    .onp-vision h2, p {
 
+    }
+    .onp-vision {
+        margin-bottom: 0;
+    }   
+    .onp-mvission .onp-vision{
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.537);
+        display: absolute;
+        margin-bottom: 1px;
     }    
-    .onp-mvission .onp-vision .mobile-view li {
-        background-color: yellow;
+    .onp-mvission .onp-vision:nth-child(1) {
+        margin-top: 70px;
     }
    }

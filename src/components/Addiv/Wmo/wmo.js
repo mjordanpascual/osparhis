@@ -7,7 +7,7 @@ const Wmo = () => {
   return (
     <>
         <Navbar />
-        <div className='pol'>
+        <div className='pol' style={{fontSize: "22px"}}>
             <h1>Waste Management / Housekeeping / DRRMO</h1>
         </div>
 

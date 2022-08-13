@@ -7,3 +7,14 @@
 body {
   background-color: rgba(232, 228, 228, 0.971);
 }
+
+.table-meddiv {
+  background-image: linear-gradient(rgb(130, 147, 103) 10%, rgb(96, 146, 96) 85%, lightgreen 100%);
+  border-radius: 25px;
+}
+
+.table-meddiv tr td {
+  font-size: 16px;
+  margin: unset;
+  padding: 10px 0;
+}

@@ -7,7 +7,7 @@ const Nurdiv = () => {
   return (
     <>
       <Navbar />
-      <div className='main-body'>
+      <div className='pol'>
         <h1>Nursing Division Policies</h1>
       </div>
       <div className='main-meddiv'>

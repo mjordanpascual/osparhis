@@ -1,39 +1,45 @@
-.main-body {
-    height: 80vh;
-    width: auto;
-    display: grid;
-    justify-content: center;
+.onp-home{
+    background: url(../../osparfront.jpg) 70% 70% repeat-y;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    top: 70px;
 }
 
 .pol {
-    letter-spacing: 5px;
-    border-bottom: 2px dashed black;
-    margin-bottom: 6px;
-    height: 65px;
-    width: auto;
     display: grid;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    padding: 5px;
+    color: #000;
+    letter-spacing: 5px;
+    background-color: rgba(255, 255, 255, 0.502);
+    border-bottom: 2px dashed black;
+}
+
+.pol h1 {
+    font-size: 32px;
 }
 
 .main-body {
-    height: 10%;
-    font-size: 10px;
-    background-color: rgba(234, 233, 233, 0.889);
-} 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.502);
+    border-bottom: 2px dashed black;
+}
 
 .main-body h1 {
-    display: grid;
-    height: 45px;
-    width: 300px;
-    padding: 5px;
-    margin-top: 10px;
-    border-radius: 10px;
-    color: rgb(0, 0, 0);
-    justify-items: center;
-    align-items: center;
-    border: 1px solid black;
-    border-radius: 100px;
+    height: 50%;
+    place-content: center;
 }
 
 .main-body .policy-div {
@@ -62,7 +68,7 @@
 
 .policy-menu ul li a {
     font-size: 10px;
-    color: black;
+    color: rgba(10, 1, 1, 0.532);
     padding: 50px;
     list-style: none;
     letter-spacing: 2.5px;
@@ -83,10 +89,11 @@
     align-items: center;
     margin: 10px 10px;
     width: 300px;
-    border: 1px solid black;
-    box-shadow: 1.5px 5.5px;
+    border: 2.5px solid #fff;
+    box-shadow: 1.5px 3px 5px rgba(190, 190, 89, 0.183);
     padding: 15px 3px;
     border-radius: 25px;
+    background-image: linear-gradient(rgba(91, 136, 39, 0.868) 10%, green 85%, lightgreen 100%);
 }  
 
 .policy-heads ul li a {
@@ -95,8 +102,9 @@
 }
 
 .policy-heads ul li a h1:hover {
-    color: green;
+    color: rgba(255, 255, 255, 0.737);
     transition: all 0.3s ease-in-out;
+    text-decoration: underline;
 }
 
 .policy-heads ul li a h1 {
@@ -109,7 +117,8 @@
     margin: 5px;
     padding: 0 3px;
     border-radius: 100px;
-    border: 0.5px solid black;
+    /* border: 0.5px solid black; */
+    box-shadow: 1px 1px 50px rgba(195, 190, 190, 0.881);
 }
 
 @media (max-width: 1284px) and (min-width: 767px){
@@ -121,13 +130,36 @@
 }
 
 @media (max-width: 768px) and (min-width: 567px){
-    .pol {
-        font-size: 32px;  
+    .pol h1 {
+        font-size: 26px;
     }
 }
 
 @media (max-width: 568px) {
+    .policy-heads {
+    background-image: linear-gradient(rgb(130, 147, 103) 10%, green 85%, lightgreen 100%);
+} 
  .pol {
-    font-size: 22px;
- }
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+}
+.pol, h1 {
+    font-size: 23px;
+    padding: 8px;
+    font-weight: 600;
+}
+ .policy-heads ul li{
+    border: 0.3px solid white;
+    background-image: linear-gradient(rgba(91, 136, 39, 0.868) 10%, green 85%, lightgreen 100%);
+} 
+.policy-heads ul li a, h3, h4 {
+    color: rgba(10, 1, 1, 0.505);
+}
+.policy-heads h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+}
 }

@@ -6,7 +6,7 @@ const Csr = () => {
   return (
     <>
         <Navbar />
-        <div className='pol'>
+        <div className='pol' style={{fontSize: "16px",height:"65px"}}>
             <h1>CENTRAL STERILE SUPPLY AND STERILIZATION UNIT (CSSU)</h1>
         </div>
 

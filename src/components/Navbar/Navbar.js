@@ -16,11 +16,11 @@ const Navbar = () => {
         <div className='Navbar-title'>
           <h2>Ospital ng Parañaque</h2>
         </div>
-        <ul className='Navbar-menu'>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/policies">Policies</Link></li>
-        </ul>
+          <ul className='Navbar-menu'>
+            <li><Link to="/">Home</Link></li>
+            {/* <li><Link to="/about">About</Link></li> */}
+            <li><Link to="/policies">Policies</Link></li>
+          </ul>
       </div>
     </>
   )

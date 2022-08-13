@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom"
-import About from './components/Pages/about';
+// import About from './components/Pages/about';
 import Home from './components/Pages/home';
 import Policies from './components/Pages/policies';
 import Footer from './components/Footer/Footer';
@@ -48,9 +48,10 @@ function App() {
   return (
     <>
       <div className="App">
+      <div className='onp-home'></div>
           <Routes>
           <Route path="/" exact element={ <Home/> } />
-        <Route path="/about" element={ <About/> } />
+        {/* <Route path="/about" element={ <About/> } /> */}
         <Route path="/policies" element={ <Policies/> } />
         <Route path="/Footer" element={ <Footer/> } />
         <Route path="/meddiv" element={ <Meddiv/> } />
