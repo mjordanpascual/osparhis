@@ -11,7 +11,7 @@ const Sao = () => {
             <h1>Supervising Administrative Office</h1>
         </div>
 
-        <div className='policy-heads'>
+        <div className='table-policy'>
                 <h2>Hospital Policies</h2>
                 <table className='table-meddiv'>
                     <tr>
