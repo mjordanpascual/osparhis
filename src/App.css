@@ -8,13 +8,54 @@ body {
   background-color: rgba(232, 228, 228, 0.971);
 }
 
-.table-meddiv {
-  background-image: linear-gradient(rgb(130, 147, 103) 10%, rgb(96, 146, 96) 85%, lightgreen 100%);
-  border-radius: 25px;
+/* Table-Policy Layout */
+ 
+.table-policy {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} 
+
+.table-policy h2 {
+  display: grid;
+  padding: 10px;
+  letter-spacing: 3px;
+  border-radius: 5px;
 }
 
-.table-meddiv tr td {
-  font-size: 16px;
-  margin: unset;
-  padding: 10px 0;
+.table-policy .table-meddiv tr th {
+  background-color: rgba(1, 81, 17, 0.957);
+  color: #fff;
+  text-transform: uppercase;  
 }
+
+.table-policy .table-meddiv tr td {
+  background-color: #ddd; 
+}
+
+@media (max-width: 1284px) and (min-width: 767px){
+  .policy-heads {
+    display: grid;
+    grid-auto-flow: rows;
+    grid-template-rows: auto auto auto;
+ }  
+ }
+ 
+ @media (max-width: 768px) and (min-width: 567px){
+     
+ }
+ 
+ @media (max-width: 568px) {
+  .table-policy {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;
+  }
+  .table-policy h2 {
+    color: black;
+    letter-spacing: 3px;
+    padding: 10px;
+    text-align: center;
+  }
+ }

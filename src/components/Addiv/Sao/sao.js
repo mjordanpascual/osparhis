@@ -22,7 +22,7 @@ const Sao = () => {
                     <tr>
                         <td><i>SAO</i></td>
                         <td>01-05-2019</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">SAO 1.2</a></td>
+                        <td><a href={ Moa } rel="noreferrer" target="_blank">SAO 1.1</a></td>
                     </tr>
                     <tr>
                         <td><i>SAO</i></td>

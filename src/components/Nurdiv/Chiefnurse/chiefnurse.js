@@ -9,10 +9,11 @@ const ChiefNurse = () => {
         <div className='pol'>
             <h1>Chief Nurse</h1>
         </div>
-
-        <div className='policy-heads'>
+        <div className='table-policy'>
+            <div>
                 <h2>Hospital Policies</h2>
-                <table className='table-meddiv'>
+            </div>
+            <table className='table-meddiv'>
                     <tr>
                         <th>Section</th>
                         <th>Date</th>
@@ -23,8 +24,23 @@ const ChiefNurse = () => {
                         <td>07-12-2016</td>
                         <td><a href={ NursingPolicy } rel="noreferrer" target="_blank">Chief Nurse 1.1</a></td>
                     </tr>
-                </table>
-            </div>
+                    <tr>
+                        <td><i>Chief Nurse</i></td>
+                        <td>07-12-2016</td>
+                        <td><a href={ NursingPolicy } rel="noreferrer" target="_blank">Chief Nurse 1.1</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Chief Nurse</i></td>
+                        <td>07-12-2016</td>
+                        <td><a href={ NursingPolicy } rel="noreferrer" target="_blank">Chief Nurse 1.1</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Chief Nurse</i></td>
+                        <td>07-12-2016</td>
+                        <td><a href={ NursingPolicy } rel="noreferrer" target="_blank">Chief Nurse 1.1</a></td>
+                    </tr>
+            </table>
+        </div>
 
     </>
   )

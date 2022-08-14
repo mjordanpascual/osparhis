@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import Moa  from '../../pdffiles/Admin/MOA.pdf'
+// import Moa  from '../../pdffiles/Admin/MOA.pdf'
 import './transpo.css'
 
 const Transpo = () => {
@@ -41,7 +41,7 @@ const Transpo = () => {
                     </tr> */}
                 </table>
                 <div style={{padding: "25px"}}>
-                        <h3 style={{color: 'yellow'}}>
+                        <h3 style={{color: 'yellow', backgroundColor: 'red'}}>
                             No File's Submitted !
                         </h3>
                 </div>
