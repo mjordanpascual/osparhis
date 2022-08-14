@@ -19,7 +19,7 @@ const Coc = () => {
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td><i>Chief of Clinics</i></td>
                         <td>01-05-2019</td>
                         <td><a href={ Moa } rel="noreferrer" target="_blank">Chief of Clinics 1.1</a></td>
@@ -38,8 +38,13 @@ const Coc = () => {
                         <td><i>Chief of Clinics</i></td>
                         <td>07-06-2022</td>
                         <td><a href={ Moa } rel="noreferrer" target="_blank">Chief of Clinics 1.4</a></td>
-                    </tr>
+                    </tr> */}
                 </table>
+                <div style={{padding: "25px"}}>
+                        <h3 style={{color: 'yellow'}}>
+                            No File's Submitted !
+                        </h3>
+                </div>
             </div>
 
     </>

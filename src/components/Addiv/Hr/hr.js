@@ -14,11 +14,12 @@ const Hr = () => {
         <div className='policy-heads'>
                 <h2>Hospital Policies</h2>
                 <table className='table-meddiv'>
-                    <tr>
+                    { <tr>
                         <th>Department</th>
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
+                    /*
                     <tr>
                         <td><i>Human Resource</i></td>
                         <td>01-05-2019</td>
@@ -38,8 +39,14 @@ const Hr = () => {
                         <td><i>Human Resource</i></td>
                         <td>07-06-2022</td>
                         <td><a href={ Moa } rel="noreferrer" target="_blank">Human Resource 1.4</a></td>
-                    </tr>
+                    </tr> */}
                 </table>
+                <div style={{padding: "25px"}}>
+                        <h3 style={{color: 'yellow'}}>
+                            No File's Submitted !
+                        </h3>
+                 </div>
+
             </div>
 
     </>

@@ -18,7 +18,7 @@ const LabEcg = () => {
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td><i>Laboratory / ECG</i></td>
                         <td>01-05-2019</td>
                         <td><a href={ Moa } rel="noreferrer" target="_blank">Laboratory / ECG 1.1</a></td>
@@ -37,8 +37,13 @@ const LabEcg = () => {
                         <td><i>Laboratory / ECG</i></td>
                         <td>07-06-2022</td>
                         <td><a href={ Moa } rel="noreferrer" target="_blank">Laboratory / ECG 1.4</a></td>
-                    </tr>
+                    </tr> */}
                 </table>
+                <div style={{padding: "25px"}}>
+                        <h3 style={{color: 'yellow'}}>
+                            No File's Submitted !
+                        </h3>
+                </div>
             </div>
 
     </>

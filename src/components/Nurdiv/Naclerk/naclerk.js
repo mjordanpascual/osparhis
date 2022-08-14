@@ -18,7 +18,7 @@ const Naclerk = () => {
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
-                    <tr>
+                    {/* <tr>
                         <td><i>Nursing Attendant's / CSR</i></td>
                         <td>01-05-2019</td>
                         <td><a href={ Moa } rel="noreferrer" target="_blank">Nursing Attendant's / CSR 1.1</a></td>
@@ -37,8 +37,13 @@ const Naclerk = () => {
                         <td><i>Nursing Attendant's / CSR</i></td>
                         <td>07-06-2022</td>
                         <td><a href={ Moa } rel="noreferrer" target="_blank">Nursing Attendant's / CSR 1.4</a></td>
-                    </tr>
+                    </tr> */}
                 </table>
+                <div style={{padding: "25px"}}>
+                        <h3 style={{color: 'yellow'}}>
+                            No File's Submitted !
+                        </h3>
+                </div>
             </div>
 
     </>
