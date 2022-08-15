@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-// import Moa  from '../../pdffiles/Admin/MOA.pdf'
+import MAINTENANCE  from '../../pdffiles/Maintenance/MAINTENANCE.pdf'
 import './maintenance.css'
 
 const Maintenance = () => {
@@ -11,7 +11,7 @@ const Maintenance = () => {
             <h1>Maintenance</h1>
         </div>
 
-        <div className='policy-heads'>
+        <div className='table-policy'>
                 <h2>Hospital Policies</h2>
                 <table className='table-meddiv'>
                     <tr>
@@ -19,32 +19,12 @@ const Maintenance = () => {
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
-                    {/* <tr>
+                    <tr>
                         <td><i>Maintenance</i></td>
                         <td>01-05-2019</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Maintenance 1.2</a></td>
+                        <td><a href={ MAINTENANCE } rel="noreferrer" target="_blank">Maintenance Policy 1.2</a></td>
                     </tr>
-                    <tr>
-                        <td><i>Maintenance</i></td>
-                        <td>07-18-2020</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Maintenance 1.2</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Maintenance</i></td>
-                        <td>12-31-2021</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Maintenance 1.3</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Maintenance</i></td>
-                        <td>07-06-2022</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Maintenance 1.4</a></td>
-                    </tr> */}
                 </table>
-                <div style={{padding: "25px"}}>
-                        <h3 style={{color: 'yellow', backgroundColor: 'red'}}>
-                            No File's Submitted !
-                        </h3>
-                </div>
             </div>
 
     </>

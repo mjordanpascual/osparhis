@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import Moa  from '../../pdffiles/Admin/MOA.pdf'
+import PROPERTY  from '../../pdffiles/Property/PROPERTY.pdf'
 import './property.css'
 
 const Property = () => {
@@ -11,7 +11,7 @@ const Property = () => {
             <h1>Property</h1>
         </div>
 
-        <div className='policy-heads'>
+        <div className='table-policy'>
                 <h2>Hospital Policies</h2>
                 <table className='table-meddiv'>
                     <tr>
@@ -19,32 +19,12 @@ const Property = () => {
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
-                    {/* <tr>
-                        <td><i>Property</i></td>
-                        <td>01-05-2019</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Property 1.2</a></td>
-                    </tr>
                     <tr>
-                        <td><i>Property</i></td>
-                        <td>07-18-2020</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Property 1.2</a></td>
+                        <td><i>Property Section</i></td>
+                        <td>07-01-2018</td>
+                        <td><a href={ PROPERTY } rel="noreferrer" target="_blank">Property Policy 1.2</a></td>
                     </tr>
-                    <tr>
-                        <td><i>Property</i></td>
-                        <td>12-31-2021</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Property 1.3</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Property</i></td>
-                        <td>07-06-2022</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Property 1.4</a></td>
-                    </tr> */}
                 </table>
-                <div style={{padding: "25px"}}>
-                        <h3 style={{color: 'yellow', backgroundColor: 'red'}}>
-                            No File's Submitted !
-                        </h3>
-                </div>
             </div>
 
     </>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import Moa  from '../../pdffiles/Admin/MOA.pdf'
+// import Moa  from '../../pdffiles/Admin/MOA.pdf'
 import './it.css'
 
 const It = () => {
@@ -11,7 +11,7 @@ const It = () => {
             <h1>Information Technology</h1>
         </div>
 
-        <div className='policy-heads'>
+        <div className='table-policy'>
                 <h2>Hospital Policies</h2>
                 <table className='table-meddiv'>
                     <tr>
@@ -41,8 +41,8 @@ const It = () => {
                     </tr> */}
                 </table>
                 <div style={{padding: "25px"}}>
-                        <h3 style={{color: 'yellow', backgroundColor: 'red'}}>
-                            No File's Submitted !
+                        <h3 style={{color: 'yellow', backgroundColor: 'green', padding: '8px'}}>
+                            In Progress...
                         </h3>
                 </div>
             </div>

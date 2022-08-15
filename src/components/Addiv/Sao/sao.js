@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import Moa  from '../../pdffiles/Admin/AdminPolicy.pdf'
+import AdminPolicy from '../../pdffiles/Admin/AdminPolicy.pdf'
+import Admin from '../../pdffiles/Admin/ADMIN.pdf'
 import './sao.css'
 
 const Sao = () => {
@@ -20,24 +21,14 @@ const Sao = () => {
                         <th>Subject</th>
                     </tr>
                     <tr>
-                        <td><i>SAO</i></td>
-                        <td>01-05-2019</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">SAO 1.1</a></td>
+                        <td><i>Administrative Division</i></td>
+                        <td>07-25-2022</td>
+                        <td><a href={ AdminPolicy } rel="noreferrer" target="_blank">Administrative Policy 1.1</a></td>
                     </tr>
                     <tr>
-                        <td><i>SAO</i></td>
-                        <td>07-18-2020</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">SAO 1.2</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>SAO</i></td>
-                        <td>12-31-2021</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">SAO 1.3</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>SAO</i></td>
-                        <td>07-06-2022</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">SAO 1.4</a></td>
+                        <td><i>Administrative Division</i></td>
+                        <td>07-28-2018</td>
+                        <td><a href={ Admin } rel="noreferrer" target="_blank">Administrative Policy 1.2</a></td>
                     </tr>
                 </table>
             </div>

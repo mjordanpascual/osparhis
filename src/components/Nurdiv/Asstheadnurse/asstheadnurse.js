@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import Moa  from '../../pdffiles/Admin/MOA.pdf'
+// import Moa  from '../../pdffiles/Admin/MOA.pdf'
 
 const Asstheadnurse = () => {
   return (

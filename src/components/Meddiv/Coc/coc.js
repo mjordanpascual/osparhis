@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
 import './coc.css'
-import Moa  from '../../pdffiles/Admin/MOA.pdf'
+// import Moa  from '../../pdffiles/Admin/MOA.pdf'
 
 const Coc = () => {
   return (
