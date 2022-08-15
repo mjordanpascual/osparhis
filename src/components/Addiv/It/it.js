@@ -11,7 +11,7 @@ const It = () => {
             <h1>Information Technology</h1>
         </div>
 
-        <div className='table-policy'>
+        <div className='policy-heads'>
                 <h2>Hospital Policies</h2>
                 <table className='table-meddiv'>
                     <tr>
@@ -41,7 +41,7 @@ const It = () => {
                     </tr> */}
                 </table>
                 <div style={{padding: "25px"}}>
-                        <h3 style={{color: 'yellow', backgroundColor: 'green', padding: '8px'}}>
+                        <h3 style={{color: 'yellow', backgroundColor: 'green'}}>
                             In Progress...
                         </h3>
                 </div>
