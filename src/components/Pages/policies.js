@@ -21,7 +21,7 @@ const Policies = () => {
               <Link to="/meddiv" target="_self">
                 <h1>Medical Division</h1>
                 <img src={Lee} alt="Dr. Lemuel Lee" className="Heads" />
-                <h1><u>Dr. Alquiroz Redentor, MD</u></h1>
+                <h1><u>Alquiroz Redentor, MD</u></h1>
               </Link>
               <h3>Division Head</h3>
               <h4>Chief of Clinics</h4>
