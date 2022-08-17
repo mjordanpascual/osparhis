@@ -38,37 +38,42 @@ const Nurdiv = () => {
           </li>
           <li>
             <Link to="/headnurse">
-             <h2>Head Nurses</h2>
+             <h2>Dr / Lr / Er / Ward</h2>
             </Link>
           </li>
           <li>  
             <Link to="/asstheadnurse">
-             <h2>Assistant Head Nurses</h2>
+             <h2>Delivery Room/ Labor Room</h2>
             </Link>
           </li>
           <li>
             <Link to="/chargenurse">
-             <h2>Charge Nurses</h2>
+             <h2>Dr / Ob Ward / Opd</h2>
             </Link>
           </li>
           <li>
             <Link to="/staffnurse">
-             <h2>Staff Nurses</h2>
+             <h2>Intensive Care Unit</h2>
             </Link>
           </li>
           <li>
             <Link to="/midwives">
-             <h2>Midwives</h2>
+             <h2>Lactation And Breastfeeding</h2>
             </Link>
           </li>
           <li>
             <Link to="/naclerks">
-             <h2>Nursing Attendant / Clerks</h2>
+             <h2>Medical Surgical Ward</h2>
+            </Link>
+          </li>
+          <li>
+            <Link to="/Obgyne">
+             <h2>Obstetric And Gynecology Unit</h2>
             </Link>
           </li>
           <li>
             <Link to="/csr">
-             <h2>CSR</h2>
+             <h2>C.S.S.U.</h2>
             </Link>
           </li>
         </ul>

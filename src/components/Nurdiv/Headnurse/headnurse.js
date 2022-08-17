@@ -1,6 +1,6 @@
-import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-// import Moa  from '../../pdffiles/Admin/MOA.pdf'
+import NSO005 from '../../pdffiles/Nursing/headnurse/NSO-005.pdf'
+// import NSO007 from '../../pdffiles/Nursing/headnurse/NSO-007.pdf'
 
 const Headnurse = () => {
   return (
@@ -10,41 +10,36 @@ const Headnurse = () => {
             <h1>Head Nurse's</h1>
         </div>
 
-        <div className='policy-heads'>
-                <h2>Hospital Policies</h2>
-                <table className='table-meddiv'>
-                    <tr>
-                        <th>Department</th>
-                        <th>Date</th>
-                        <th>Subject</th>
-                    </tr>
-                    {/* <tr>
-                        <td><i>Head Nurse</i></td>
-                        <td>01-05-2019</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Head Nurse 1.1</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Head Nurse</i></td>
-                        <td>07-18-2020</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Head Nurse 1.2</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Head Nurse</i></td>
-                        <td>12-31-2021</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Head Nurse 1.3</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Head Nurse</i></td>
-                        <td>07-06-2022</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Head Nurse 1.4</a></td>
-                    </tr> */}
-                </table>
-                <div style={{padding: "25px"}}>
-                        <h3 style={{color: 'yellow', backgroundColor: 'red'}}>
-                            No File's Submitted !
-                        </h3>
-                </div>
-            </div>
+        <div className='table-policy'>
+            <h2>Hospital Policies</h2>
+            <table className='table-meddiv'>
+                <tr>
+                    <th>Section</th>
+                    <th>Date</th>
+                    <th>Subject</th>
+                </tr>
+                <tr>
+                    <td><i>DR / LR / ER / WARD</i></td>
+                    <td>July 12, 2016</td>
+                    <td><a href={ NSO005 } rel="noreferrer" target="_blank">POLICY ON EXPANDED ROLE OF MIDWIVES</a></td>
+                </tr>
+                {/* <tr>
+                    <td><i>DR / LR / ER / WARD</i></td>
+                    <td>July 12, 2016</td>
+                    <td><a href={ NSO015 } rel="noreferrer" target="_blank">DELIVERY ROOM/LABOR ROOM STANDARD OPERATING PROCEDURE</a></td>
+                </tr> */}
+                {/* <tr>
+                    <td><i>DR/ OB WARD/ OPD</i></td>
+                    <td>July 12, 2016</td>
+                    <td><a href={ NSO019 } rel="noreferrer" target="_blank">POLICY ON HEPA B AND BCG VACCINATION</a></td>
+                </tr>
+                <tr>
+                    <td><i>DR/ OB WARD/ OPD</i></td>
+                    <td>July 12, 2016</td>
+                    <td><a href={ NSO007 } rel="noreferrer" target="_blank">STANDARD OPERATING PROCEDURES AT THE EMERGENCY ROOM</a></td>
+                </tr> */}
+            </table>
+        </div>
 
     </>
   )

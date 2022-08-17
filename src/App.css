@@ -58,4 +58,10 @@ body {
     padding: 10px;
     text-align: center;
   }
+  .table-policy .table-meddiv tr th {
+    font-size: 13px;
+  }
+  .table-policy .table-meddiv tr td {
+    font-size: 11px;
+  }
  }

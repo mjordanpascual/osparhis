@@ -27,6 +27,7 @@ import Chargenurse from './components/Nurdiv/Chargenurse/chargenurse';
 import Staffnurse from './components/Nurdiv/Staffnurse/staffnurse';
 import Midwives from './components/Nurdiv/Midwives/midwives';
 import Naclerk from './components/Nurdiv/Naclerk/naclerk';
+import Obgyne from './components/Nurdiv/Obgyne/Obgyne';
 import Csr from './components/Nurdiv/Csr/csr';
 import Accounting from './components/Busdiv/Accounting/accounting';
 import Billing from './components/Busdiv/billing/billing';
@@ -77,6 +78,7 @@ function App() {
         <Route path="/staffnurse" element={ <Staffnurse/> } />
         <Route path="/midwives" element={ <Midwives/> } />
         <Route path="/naclerks" element={ <Naclerk/> } />
+        <Route path="/Obgyne" element={ <Obgyne /> } />
         <Route path="/csr" element={ <Csr/> } />
         <Route path="/accounting" element={ <Accounting/> } />
         <Route path="/billing" element={ <Billing/> } />

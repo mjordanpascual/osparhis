@@ -1,16 +1,17 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-// import Moa  from '../../pdffiles/Admin/MOA.pdf'
+import NSO019 from '../../pdffiles/Nursing/headnurse/NSO-019.pdf'
+import opd from '../../pdffiles/Nursing/opd/opd.pdf'
 
 const Chargenurse = () => {
   return (
     <>
         <Navbar />
         <div className='pol'>
-            <h1>Charge Nurse's</h1>
+            <h1>DR/ OB WARD/ OPD</h1>
         </div>
 
-        <div className='policy-heads'>
+        <div className='table-policy'>
                 <h2>Hospital Policies</h2>
                 <table className='table-meddiv'>
                     <tr>
@@ -18,34 +19,18 @@ const Chargenurse = () => {
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
-                    {/* <tr>
-                        <td><i>Charge Nurse</i></td>
-                        <td>01-05-2019</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Charge Nurse 1.1</a></td>
+                    <tr>
+                        <td><i>DR / OB WARD / OPD</i></td>
+                        <td>July 12, 2016</td>
+                        <td><a href={ NSO019 } rel="noreferrer" target="_blank">POLICY ON HEPA B AND BCG VACCINATION</a></td>
                     </tr>
                     <tr>
-                        <td><i>Charge Nurse</i></td>
-                        <td>07-18-2020</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Charge Nurse 1.2</a></td>
+                        <td><i>OUT-PATIENT</i></td>
+                        <td>August 10, 2022</td>
+                        <td><a href={ opd } rel="noreferrer" target="_blank">STANDARD OPERATING PROCEDURE AT THE OUT PATIENT DEPARTMENT</a></td>
                     </tr>
-                    <tr>
-                        <td><i>Charge Nurse</i></td>
-                        <td>12-31-2021</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Charge Nurse 1.3</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Charge Nurse</i></td>
-                        <td>07-06-2022</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Charge Nurse 1.4</a></td>
-                    </tr> */}
                 </table>
-                <div style={{padding: "25px"}}>
-                        <h3 style={{color: 'yellow', backgroundColor: 'red'}}>
-                            No File's Submitted !
-                        </h3>
-                </div>
             </div>
-
     </>
   )
 }

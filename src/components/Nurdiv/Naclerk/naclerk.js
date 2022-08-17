@@ -1,29 +1,29 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-// import Moa  from '../../pdffiles/Admin/MOA.pdf'
+import NSO010  from '../../pdffiles/Nursing/msward/NSO-010.pdf'
 
 const Naclerk = () => {
   return (
     <>
         <Navbar />
         <div className='pol'>
-            <h1>Nursing Attendant's / CSR</h1>
+            <h1>MEDICAL SURGICAL WARD</h1>
         </div>
 
-        <div className='policy-heads'>
+        <div className='table-policy'>
                 <h2>Hospital Policies</h2>
                 <table className='table-meddiv'>
                     <tr>
-                        <th>Department</th>
+                        <th>Section</th>
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
-                    {/* <tr>
-                        <td><i>Nursing Attendant's / CSR</i></td>
-                        <td>01-05-2019</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Nursing Attendant's / CSR 1.1</a></td>
-                    </tr>
                     <tr>
+                        <td><i>MEDICAL SURGICAL WARD</i></td>
+                        <td>01-05-2019</td>
+                        <td><a href={ NSO010 } rel="noreferrer" target="_blank">POLICY ON ADMISSION AND DISCHARGE AT MEDICAL/ SURGICAL WARD </a></td>
+                    </tr>
+                    {/* <tr>
                         <td><i>Nursing Attendant's / CSR</i></td>
                         <td>07-18-2020</td>
                         <td><a href={ Moa } rel="noreferrer" target="_blank">Nursing Attendant's / CSR 1.2</a></td>
@@ -39,11 +39,6 @@ const Naclerk = () => {
                         <td><a href={ Moa } rel="noreferrer" target="_blank">Nursing Attendant's / CSR 1.4</a></td>
                     </tr> */}
                 </table>
-                <div style={{padding: "25px"}}>
-                        <h3 style={{color: 'yellow', backgroundColor: 'red'}}>
-                            No File's Submitted !
-                        </h3>
-                </div>
             </div>
 
     </>
