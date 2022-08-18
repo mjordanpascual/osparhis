@@ -16,28 +16,15 @@ const ChiefNurse = () => {
             <table className='table-meddiv'>
                     <tr>
                         <th>Section</th>
+                        <th>Policy No.</th>
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
                     <tr>
                         <td><i>Chief Nurse</i></td>
-                        <td>07-12-2016</td>
-                        <td><a href={ NursingPolicy } rel="noreferrer" target="_blank">Chief Nurse 1.1</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Chief Nurse</i></td>
-                        <td>07-12-2016</td>
-                        <td><a href={ NursingPolicy } rel="noreferrer" target="_blank">Chief Nurse 1.1</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Chief Nurse</i></td>
-                        <td>07-12-2016</td>
-                        <td><a href={ NursingPolicy } rel="noreferrer" target="_blank">Chief Nurse 1.1</a></td>
-                    </tr>
-                    <tr>
-                        <td><i>Chief Nurse</i></td>
-                        <td>07-12-2016</td>
-                        <td><a href={ NursingPolicy } rel="noreferrer" target="_blank">Chief Nurse 1.1</a></td>
+                        <td><i>-</i></td>
+                        <td>07-25-2016</td>
+                        <td><a href={ NursingPolicy } rel="noreferrer" target="_blank">Nursing Policy</a></td>
                     </tr>
             </table>
         </div>

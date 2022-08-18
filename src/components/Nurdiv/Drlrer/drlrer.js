@@ -7,7 +7,7 @@ const Headnurse = () => {
     <>
         <Navbar />
         <div className='pol'>
-            <h1>Head Nurse's</h1>
+            <h1>DR / LR / ER / WARD</h1>
         </div>
 
         <div className='table-policy'>
@@ -15,32 +15,18 @@ const Headnurse = () => {
             <table className='table-meddiv'>
                 <tr>
                     <th>Section</th>
+                    <th>Policy No.</th>
                     <th>Date</th>
                     <th>Subject</th>
                 </tr>
                 <tr>
                     <td><i>DR / LR / ER / WARD</i></td>
+                    <td>NSO-005</td>
                     <td>July 12, 2016</td>
                     <td><a href={ NSO005 } rel="noreferrer" target="_blank">POLICY ON EXPANDED ROLE OF MIDWIVES</a></td>
                 </tr>
-                {/* <tr>
-                    <td><i>DR / LR / ER / WARD</i></td>
-                    <td>July 12, 2016</td>
-                    <td><a href={ NSO015 } rel="noreferrer" target="_blank">DELIVERY ROOM/LABOR ROOM STANDARD OPERATING PROCEDURE</a></td>
-                </tr> */}
-                {/* <tr>
-                    <td><i>DR/ OB WARD/ OPD</i></td>
-                    <td>July 12, 2016</td>
-                    <td><a href={ NSO019 } rel="noreferrer" target="_blank">POLICY ON HEPA B AND BCG VACCINATION</a></td>
-                </tr>
-                <tr>
-                    <td><i>DR/ OB WARD/ OPD</i></td>
-                    <td>July 12, 2016</td>
-                    <td><a href={ NSO007 } rel="noreferrer" target="_blank">STANDARD OPERATING PROCEDURES AT THE EMERGENCY ROOM</a></td>
-                </tr> */}
             </table>
         </div>
-
     </>
   )
 }

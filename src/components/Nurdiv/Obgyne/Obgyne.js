@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Navbar/Navbar'
 import NSO017  from '../../pdffiles/Nursing/obgyne/NSO-017.pdf'
 import NSO018  from '../../pdffiles/Nursing/obgyne/NSO-018.pdf'
+import NSO019  from '../../pdffiles/Nursing/obgyne/NSO-019.pdf'
 
 const Obgyne = () => {
   return (
@@ -28,6 +29,11 @@ const Obgyne = () => {
                         <td><i>Obstetric and Gynecology Unit</i></td>
                         <td>July 12, 2016</td>
                         <td><a href={ NSO018 } rel="noreferrer" target="_blank">POLICY ON HUMAN MILK BANKING</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>NICU / OB / GYNE Ward / OPD</i></td>
+                        <td>February 21, 2015</td>
+                        <td><a href={ NSO019 } rel="noreferrer" target="_blank">POLICY ON NEWBORN SCREENING</a></td>
                     </tr>
                 </table>
             </div>

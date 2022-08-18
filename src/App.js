@@ -21,13 +21,15 @@ import ChiefNurse from './components/Nurdiv/Chiefnurse/chiefnurse';
 import AsstChiefNurse from './components/Nurdiv/AsstChiefNurse/asstchiefnurse';
 import Infeccont from './components/Nurdiv/InfecCont/infeccont';
 import Superv from './components/Nurdiv/Superv/superv';
-import Headnurse from './components/Nurdiv/Headnurse/headnurse';
-import Asstheadnurse from './components/Nurdiv/Asstheadnurse/asstheadnurse';
+import Drlrer from './components/Nurdiv/Drlrer/drlrer';
+import Midwife from './components/Nurdiv/Midwife/midwife';
 import Chargenurse from './components/Nurdiv/Chargenurse/chargenurse';
 import Staffnurse from './components/Nurdiv/Staffnurse/staffnurse';
 import Midwives from './components/Nurdiv/Midwives/midwives';
 import Naclerk from './components/Nurdiv/Naclerk/naclerk';
-import Obgyne from './components/Nurdiv/Obgyne/Obgyne';
+import Obgyne from './components/Nurdiv/Obgyne/obgyne';
+import Or from './components/Nurdiv/Or/or';
+import Pedia from './components/Nurdiv/Pedia/pedia';
 import Csr from './components/Nurdiv/Csr/csr';
 import Accounting from './components/Busdiv/Accounting/accounting';
 import Billing from './components/Busdiv/billing/billing';
@@ -72,13 +74,15 @@ function App() {
         <Route path="/asstchiefnurse" element={ <AsstChiefNurse/> } />
         <Route path="/infeccont" element={ <Infeccont/> } />
         <Route path="/superv" element={ <Superv/> } />
-        <Route path="/headnurse" element={ <Headnurse/> } />
-        <Route path="/asstheadnurse" element={ <Asstheadnurse/> } />
+        <Route path="/drlrer" element={ <Drlrer/> } />
+        <Route path="/midwife" element={ <Midwife /> } />
         <Route path="/chargenurse" element={ <Chargenurse/> } />
         <Route path="/staffnurse" element={ <Staffnurse/> } />
         <Route path="/midwives" element={ <Midwives/> } />
         <Route path="/naclerks" element={ <Naclerk/> } />
-        <Route path="/Obgyne" element={ <Obgyne /> } />
+        <Route path="/obgyne" element={ <Obgyne /> } />
+        <Route path="/or" element={ <Or /> } />
+        <Route path="/pedia" element={ <Pedia /> } />
         <Route path="/csr" element={ <Csr/> } />
         <Route path="/accounting" element={ <Accounting/> } />
         <Route path="/billing" element={ <Billing/> } />
