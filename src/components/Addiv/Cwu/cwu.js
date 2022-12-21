@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import CWU  from '../../pdffiles/Cwu/CWU.pdf'
+import CWUIT0001  from '../../pdffiles/Cwu/POLICY ON CCTV.pdf'
+import CWU0002  from '../../pdffiles/Cwu/POLICY ON PARKING SERVICES.pdf'
+import CWU0001  from '../../pdffiles/Cwu/POLICY ON SECURITY SERVICES.pdf'
 import './cwu.css'
 
 const Cwu = () => {
@@ -20,9 +22,19 @@ const Cwu = () => {
                         <th>Subject</th>
                     </tr>
                     <tr>
-                        <td><i>Civilian Watchman Unit Section</i></td>
-                        <td>07-01-2018</td>
-                        <td><a href={ CWU } rel="noreferrer" target="_blank">Civilan Watchman Unit Policy 1.2</a></td>
+                        <td><i>Civilian Watchman Unit / Information Technology</i></td>
+                        <td>2022</td>
+                        <td><a href={ CWUIT0001 } rel="noreferrer" target="_blank">POLICY ON CCTV</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Civilian Watchman Unit</i></td>
+                        <td>September 2022</td>
+                        <td><a href={ CWU0002 } rel="noreferrer" target="_blank">POLICY ON PARKING SERVICES</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Civilian Watchman Unit</i></td>
+                        <td>September 2022</td>
+                        <td><a href={ CWU0001 } rel="noreferrer" target="_blank">POLICY ON SECURITY SERVICES</a></td>
                     </tr>
                 </table>
             </div>

@@ -34,7 +34,7 @@ const Addiv = () => {
             <Link to="/cwu">
              <h2>Joel R. Lombos - OIC</h2>
             </Link>
-            <h3>Civilian Security Unit</h3>
+            <h3>Civilian Watchman Unit</h3>
           </li>
           <li>
             <Link to="/linen">

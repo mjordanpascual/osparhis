@@ -1,6 +1,11 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import MAINTENANCE  from '../../pdffiles/Maintenance/MAINTENANCE.pdf'
+import ENGMAINT001  from '../../pdffiles/Maintenance/POLICY AND GUIDELINES REGARDING MAINTENANCE OF EQUIPMENT.pdf'
+import ENGMAINT002  from '../../pdffiles/Maintenance/POLICY AND PROCEDURE ON REPAIRS AND RENOVATION.pdf'
+import ENGMAINT004  from '../../pdffiles/Maintenance/POLICY ON CLEANING OF AIRCON.pdf'
+import ENGMAINT005  from '../../pdffiles/Maintenance/POLICY ON CLEANING OF ELECTRIC FANS & EXHAUST FANS.pdf'
+import ENGMAINT003  from '../../pdffiles/Maintenance/POLICY ON ELECTRICAL MONITORING AND REPAIRS.pdf'
+import ENGMAINT006  from '../../pdffiles/Maintenance/POLICY ON HANDLING HOSPITAL GENERATOR.pdf'
 import './maintenance.css'
 
 const Maintenance = () => {
@@ -21,8 +26,33 @@ const Maintenance = () => {
                     </tr>
                     <tr>
                         <td><i>Maintenance</i></td>
-                        <td>01-05-2019</td>
-                        <td><a href={ MAINTENANCE } rel="noreferrer" target="_blank">Maintenance Policy 1.2</a></td>
+                        <td>-</td>
+                        <td><a href={ ENGMAINT001 } rel="noreferrer" target="_blank">POLICY AND GUIDELINES REGARDING MAINTENANCE OF EQUIPMENT</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Maintenance</i></td>
+                        <td>-</td>
+                        <td><a href={ ENGMAINT002 } rel="noreferrer" target="_blank">POLICY AND PROCEDURE ON REPAIRS AND RENOVATION</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Maintenance</i></td>
+                        <td>-</td>
+                        <td><a href={ ENGMAINT004 } rel="noreferrer" target="_blank">POLICY ON CLEANING OF AIRCON</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Maintenance</i></td>
+                        <td>-</td>
+                        <td><a href={ ENGMAINT005 } rel="noreferrer" target="_blank">POLICY ON CLEANING OF ELECTRIC FANS & EXHAUST FANS</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Maintenance</i></td>
+                        <td>-</td>
+                        <td><a href={ ENGMAINT003 } rel="noreferrer" target="_blank">POLICY ON ELECTRICAL MONITORING AND REPAIRS</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Maintenance</i></td>
+                        <td>-</td>
+                        <td><a href={ ENGMAINT006 } rel="noreferrer" target="_blank">POLICY ON HANDLING HOSPITAL GENERATOR</a></td>
                     </tr>
                 </table>
             </div>

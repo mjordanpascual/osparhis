@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import Moa  from '../../pdffiles/Admin/MOA.pdf'
+import RTS001  from '../../pdffiles/Pulmonary/MISSION and VISION and Duties and Responsibilities.pdf'
+import RTS002  from '../../pdffiles/Pulmonary/POLICY ON ARTERIAL BLOOD GAS ANALYSIS (ABG).pdf'
+import RTS002a  from '../../pdffiles/Pulmonary/POLICY ON PREPARATION, USAGE, AND MANAGEMENT OF MECHANICAL VENTILATORS FOR PATIENT USE.pdf'
 
 const Rt = () => {
   return (
@@ -10,7 +12,7 @@ const Rt = () => {
             <h1>Respiratory Therapy</h1>
         </div>
 
-        <div className='policy-heads'>
+        <div className='table-policy'>
                 <h2>Hospital Policies</h2>
                 <table className='table-meddiv'>
                     <tr>
@@ -18,34 +20,23 @@ const Rt = () => {
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
-                    {/* <tr>
+                    <tr>
                         <td><i>Respiratory Therapy</i></td>
-                        <td>01-05-2019</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Respiratory Therapy 1.1</a></td>
+                        <td>-</td>
+                        <td><a href={ RTS001 } rel="noreferrer" target="_blank">MISSION and VISION and Duties and Responsibilities</a></td>
                     </tr>
                     <tr>
                         <td><i>Respiratory Therapy</i></td>
-                        <td>07-18-2020</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Respiratory Therapy 1.2</a></td>
+                        <td>-</td>
+                        <td><a href={ RTS002 } rel="noreferrer" target="_blank">POLICY ON ARTERIAL BLOOD GAS ANALYSIS(ABG)</a></td>
                     </tr>
                     <tr>
                         <td><i>Respiratory Therapy</i></td>
-                        <td>12-31-2021</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Respiratory Therapy 1.3</a></td>
+                        <td>-</td>
+                        <td><a href={ RTS002a } rel="noreferrer" target="_blank">POLICY ON PREPARATION, USAGE, AND MANAGEMENT OF MECHANICAL VENTILATORS FOR PATIENT USE</a></td>
                     </tr>
-                    <tr>
-                        <td><i>Respiratory Therapy</i></td>
-                        <td>07-06-2022</td>
-                        <td><a href={ Moa } rel="noreferrer" target="_blank">Respiratory Therapy 1.4</a></td>
-                    </tr> */}
                 </table>
-                <div style={{padding: "25px"}}>
-                        <h3 style={{color: 'yellow', backgroundColor: 'red'}}>
-                            No File's Submitted !
-                        </h3>
-                </div>
             </div>
-
     </>
   )
 }

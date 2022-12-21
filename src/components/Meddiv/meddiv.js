@@ -53,7 +53,7 @@ const Meddiv = () => {
             <Link to="/pt" target="_self">
              <h2>Nico Ryan C. Garcia, RRT</h2>
             </Link>
-            <h3>Physical Therapy</h3>
+            <h3>PT and Rehabilitation Medicine</h3>
           </li>
           <li>
             <Link to="/rt" target="_self">

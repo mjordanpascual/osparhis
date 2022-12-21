@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import AdminPolicy from '../../pdffiles/Admin/AdminPolicy.pdf'
-import Admin from '../../pdffiles/Admin/ADMIN.pdf'
+// import Admin from '../../pdffiles/Admin/ADMIN.pdf'
 import './sao.css'
 
 const Sao = () => {
@@ -20,17 +19,17 @@ const Sao = () => {
                         <th>Date</th>
                         <th>Subject</th>
                     </tr>
-                    <tr>
-                        <td><i>Administrative Division</i></td>
-                        <td>07-25-2022</td>
-                        <td><a href={ AdminPolicy } rel="noreferrer" target="_blank">Administrative Policy 1.1</a></td>
-                    </tr>
-                    <tr>
+                    {/* <tr>
                         <td><i>Administrative Division</i></td>
                         <td>07-28-2018</td>
                         <td><a href={ Admin } rel="noreferrer" target="_blank">Administrative Policy 1.2</a></td>
-                    </tr>
+                    </tr> */}
                 </table>
+                <div style={{padding: "25px"}}>
+                        <h3 style={{color: 'yellow', backgroundColor: 'green'}}>
+                            In Progress...
+                        </h3>
+                </div>
             </div>
 
     </>

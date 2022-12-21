@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import HK  from '../../pdffiles/Hk/HOUSEKEEPING.pdf'
+import HK001  from '../../pdffiles/Hk/POLICY ON BASIC TECHNIQUE ON CLEANING.pdf'
+import HK002  from '../../pdffiles/Hk/POLICY ON ON-SITE COLLECTION OF HEALTH CARE WASTE.pdf'
+import HK004  from '../../pdffiles/Hk/POLICY ON WASTE MANAGEMENT.pdf'
 import './wmo.css'
 
 const Wmo = () => {
@@ -21,8 +23,18 @@ const Wmo = () => {
                     </tr>
                     <tr>
                         <td><i>Housekeeping Section</i></td>
-                        <td>07-01-2018</td>
-                        <td><a href={ HK } rel="noreferrer" target="_blank">Housekeeping Policy 1.1</a></td>
+                        <td>August 2022</td>
+                        <td><a href={ HK001 } rel="noreferrer" target="_blank">POLICY ON BASIC TECHNIQUE ON CLEANING</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Housekeeping Section</i></td>
+                        <td>August 2022</td>
+                        <td><a href={ HK002 } rel="noreferrer" target="_blank">POLICY ON ON-SITE COLLECTION OF HEALTH CARE WASTE</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Housekeeping Section</i></td>
+                        <td>August 2022</td>
+                        <td><a href={ HK004 } rel="noreferrer" target="_blank">POLICY ON WASTE MANAGEMENT</a></td>
                     </tr>
                 </table>
             </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../Navbar/Navbar'
-import TO  from '../../pdffiles/To/TO.pdf'
+import TO001  from '../../pdffiles/To/POLICY ON PROPER GUIDELINES THE PROPER HANDLING OF THE TELEPHONE AS A TOOL OF COMMUNICATION.pdf'
+import TO003   from '../../pdffiles/To/POLICY ON EMERGENCY OPERATION CENTER.pdf'
+import TO002   from '../../pdffiles/To/POLICY ON HANDLING OF TELEPHONE MESSAGES.pdf'
 import './to.css'
 
 const To = () => {
@@ -21,8 +23,18 @@ const To = () => {
                     </tr>
                     <tr>
                         <td><i>Telephone Operator Section</i></td>
-                        <td>07-01-2018</td>
-                        <td><a href={ TO } rel="noreferrer" target="_blank">Telephone Operator Policy 1.2</a></td>
+                        <td>-</td>
+                        <td><a href={ TO001 } rel="noreferrer" target="_blank">POLICY ON  PROPER GUIDELINES THE PROPER HANDLING OF THE TELEPHONE AS A TOOL OF COMMUNICATION</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Telephone Operator Section</i></td>
+                        <td>September 2022</td>
+                        <td><a href={ TO003 } rel="noreferrer" target="_blank">POLICY ON EMERGENCY OPERATION CENTER</a></td>
+                    </tr>
+                    <tr>
+                        <td><i>Telephone Operator Section</i></td>
+                        <td>September 2022</td>
+                        <td><a href={ TO002 } rel="noreferrer" target="_blank">POLICY ON HANDLING OF TELEPHONE MESSAGES</a></td>
                     </tr>
                 </table>
             </div>
