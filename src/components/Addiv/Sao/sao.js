@@ -25,13 +25,12 @@ const Sao = () => {
                         <td><a href={ Admin } rel="noreferrer" target="_blank">Administrative Policy 1.2</a></td>
                     </tr> */}
                 </table>
-                <div style={{padding: "25px"}}>
+            </div>
+            <div style={{padding: "25px"}}>
                         <h3 style={{color: 'yellow', backgroundColor: 'green'}}>
                             In Progress...
                         </h3>
                 </div>
-            </div>
-
     </>
   )
 }
