@@ -26,11 +26,11 @@ const Sao = () => {
                     </tr> */}
                 </table>
             </div>
-            <div style={{padding: "25px"}}>
+            <div style={{padding: "15px", display: 'flex', justifyContent: 'center'}}>
                         <h3 style={{color: 'yellow', backgroundColor: 'green'}}>
                             In Progress...
                         </h3>
-                </div>
+            </div>
     </>
   )
 }
