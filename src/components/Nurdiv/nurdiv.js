@@ -14,22 +14,25 @@ const Nurdiv = () => {
         <ul className='divisionPolicies'>
           <li>
             <Link to="/chiefnurse">
-             <h2>Meda M. Calderon, RN, MAN</h2>
+             {/* <h2>Meda M. Calderon, RN, MAN</h2> */}
+             <h2>Chief Nurse</h2>
             </Link>
-            <h3>Division Head</h3>
-            <h4>Chief Nurse</h4>
+            {/* <h3>Division Head</h3> */}
+            {/* <h4>Chief Nurse</h4> */}
           </li>
           <li>
             <Link to="/asstchiefnurse">
-             <h2>Angeline L. Brillantes RN</h2>
+             {/* <h2>Angeline L. Brillantes RN</h2> */}
+             <h2>Assistant Chief Nurse</h2>
             </Link>
-            <h3>Assistant Chief Nurse</h3>
+            {/* <h3>Assistant Chief Nurse</h3> */}
           </li>
           <li>
             <Link to="/infeccont">
-             <h2>Georgina L. Rodriguez, RN</h2>
+             {/* <h2>Georgina L. Rodriguez, RN</h2> */}
+             <h2>Infection Control</h2>
             </Link>
-            <h3>Infection Control</h3>
+            {/* <h3>Infection Control</h3> */}
           </li>
           <li>
             <Link to="/superv">

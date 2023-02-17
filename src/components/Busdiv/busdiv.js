@@ -14,22 +14,25 @@ const Busdiv = () => {
         <ul className='divisionPolicies'>
           <li>
             <Link to="/accounting">
-             <h2>Rizalina S. Lavarias, CPA</h2>
+             {/* <h2>Rizalina S. Lavarias, CPA</h2> */}
+             <h2>Accounting</h2>
             </Link>
-            <h3>Division Head</h3>
-            <h3>Accounting</h3>
+            {/* <h3>Division Head</h3> */}
+            {/* <h3>Accounting</h3> */}
           </li>
           <li>
             <Link to="/billing">
-             <h2>Gichelle Anne A. Dell Valle  - OIC</h2>
+             {/* <h2>Gichelle Anne A. Dell Valle  - OIC</h2> */}
+             <h2>Billing Claims & Philhealth</h2>
             </Link>
-            <h3>Billing Claims & Philhealth</h3>
+            {/* <h3>Billing Claims & Philhealth</h3> */}
           </li>
           <li>
             <Link to="/cashier">
-             <h2>Martha J. Jose - OIC</h2>
+             {/* <h2>Martha J. Jose - OIC</h2> */}
+             <h2>Cashier</h2>
             </Link>
-            <h3>Cashier</h3>
+            {/* <h3>Cashier</h3> */}
           </li>
         </ul>
       </div>

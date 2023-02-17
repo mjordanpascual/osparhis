@@ -94,7 +94,7 @@
     padding: 15px 3px;
     border-radius: 25px;
     /* background-image: linear-gradient(rgba(91, 136, 39, 0.868) 10%, green 85%, lightgreen 100%); */
-    background-color: rgb(23, 129, 44);
+    background-color: rgb(23, 129, 44, 0.900);
 }  
 
 .policy-heads ul li a {
